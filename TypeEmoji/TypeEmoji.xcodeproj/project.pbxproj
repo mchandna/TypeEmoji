@@ -599,6 +599,7 @@
 				E19F2CB31C1FBFAD00D8A8CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E19F2CB41C1FBFAD00D8A8CD /* Build configuration list for PBXNativeTarget "TypeEmojiTests" */ = {
 			isa = XCConfigurationList;
@@ -607,6 +608,7 @@
 				E19F2CB61C1FBFAD00D8A8CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E19F2CB71C1FBFAD00D8A8CD /* Build configuration list for PBXNativeTarget "TypeEmojiUITests" */ = {
 			isa = XCConfigurationList;
@@ -615,6 +617,7 @@
 				E19F2CB91C1FBFAD00D8A8CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E19F2CC61C1FBFD000D8A8CD /* Build configuration list for PBXNativeTarget "TypeEmoji Keyboard" */ = {
 			isa = XCConfigurationList;
@@ -623,6 +626,7 @@
 				E19F2CC81C1FBFD000D8A8CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
