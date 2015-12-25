@@ -10,14 +10,17 @@ import UIKit
 class KeyboardViewController: UIInputViewController {
     
     @IBOutlet var nextKeyboardButton: UIButton!
-    var myLexicon = NSMutableDictionary()
-    var keyboardType = "Upper"
+    var keyboardType = "UpperStart" //Figure out keyboard shift key
+    var lastKeyPressed: String = ""
+    var checking: Bool = false
+    var wordToReplace: String = ""
+    var emojiWord = NSDictionary()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     
-        self.requestSupplementaryLexiconWithCompletion { (theLexicon: UILexicon!) -> Void in let appleLexicon = theLexicon.entries }
-        
         createKeyboard()
+        keyboardType = "UpperStart"
     }
     
     override func didReceiveMemoryWarning() {
@@ -44,6 +47,8 @@ class KeyboardViewController: UIInputViewController {
     
     //MARK: Methods
     
+    //Possibly make this using xib file?
+    //Possibly make new class for these methods
     func loadKeysUpper() {
         var keyTitles = ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"]
         var keys = createKeys(keyTitles)
@@ -96,6 +101,8 @@ class KeyboardViewController: UIInputViewController {
         self.view.addSubview(fourthRowKeyboard)
         
         addConstraints(keys, containingView: fourthRowKeyboard)
+        
+        keyboardType = "Upper"
     }
     
     func loadKeysLower() {
@@ -150,6 +157,8 @@ class KeyboardViewController: UIInputViewController {
         self.view.addSubview(fourthRowKeyboard)
         
         addConstraints(keys, containingView: fourthRowKeyboard)
+        
+        keyboardType = "Lower"
     }
 
     func loadKeysNumeric() {
@@ -204,6 +213,8 @@ class KeyboardViewController: UIInputViewController {
         self.view.addSubview(fourthRowKeyboard)
         
         addConstraints(keys, containingView: fourthRowKeyboard)
+        
+        keyboardType = "Numeric"
     }
     
     func loadKeysSpecial() {
@@ -258,6 +269,8 @@ class KeyboardViewController: UIInputViewController {
         self.view.addSubview(fourthRowKeyboard)
         
         addConstraints(keys, containingView: fourthRowKeyboard)
+        
+        keyboardType = "Special"
     }
     
     func createKeys(keyTitles: [String]) -> [UIButton] {
@@ -270,23 +283,50 @@ class KeyboardViewController: UIInputViewController {
             keyButton.backgroundColor = UIColor(white: 1.0, alpha: 1.0)
             keyButton.setTitleColor(UIColor.darkGrayColor(), forState: UIControlState.Normal)
             keyButton.addTarget(self, action: "keyPressed:", forControlEvents: UIControlEvents.TouchUpInside)
+            if keyTitle == "⇧" {
+                keyButton.addTarget(self, action: "keyDoublePressed:", forControlEvents: UIControlEvents.TouchDownRepeat)
+            }
             keys.append(keyButton)
         }
         
         return keys
     }
     
+    func capsLock() {
+        if keyboardType == "Upper" || keyboardType == "UpperStart" || keyboardType == "UpperLocked" {
+            loadKeysLower()
+        }
+        else {
+            loadKeysUpper()
+        }
+    }
+    
+    func keyDoublePressed(sender: AnyObject?) {
+        let button = sender as! UIButton
+        (textDocumentProxy as UIKeyInput).insertText("Doubled")
+        loadKeysUpper()
+        keyboardType = "UpperLocked"
+    }
+    
+    //Figure out word to replace when it comes to backspaces and keyboard changes
     func keyPressed(sender: AnyObject?) {
         let button = sender as! UIButton
         let title = button.titleForState(UIControlState.Normal)
+        
+        //Change animation
+        UIView.animateWithDuration(0.2, animations: {
+            button.transform = CGAffineTransformScale(CGAffineTransformIdentity, 2.0, 2.0)
+            }, completion: {(_) -> Void in
+                button.transform =
+                    CGAffineTransformScale(CGAffineTransformIdentity, 1, 1)
+        })
+        
         switch title {
         case "123"?:
             loadKeysNumeric()
-            keyboardType = "Numeric"
             break
         case "#+="?:
             loadKeysSpecial()
-            keyboardType = "Special"
             break
         case "ABC"?:
             loadKeysLower()
@@ -295,30 +335,53 @@ class KeyboardViewController: UIInputViewController {
             (textDocumentProxy as UIKeyInput).deleteBackward()
             break
         case "⇧"? :
-            if keyboardType == "Upper" {
-                loadKeysLower()
-                keyboardType = "Lower"
-            }
-            else {
-                loadKeysUpper()
-                keyboardType = "Upper"
-            }
+            capsLock()
             break
         case "🌐"?:
             advanceToNextInputMode()
             break
         case "space"?:
-            (textDocumentProxy as UIKeyInput).insertText(" ")
+            if lastKeyPressed == "space" {
+                (textDocumentProxy as UIKeyInput).insertText(".")
+            }
+            else {
+                (textDocumentProxy as UIKeyInput).insertText(" ")
+            }
             break
         case "return"?:
             (textDocumentProxy as UIKeyInput).insertText("\n")
             break
         default:
             (textDocumentProxy as UIKeyInput).insertText(title!)
+            if title == ":" && checking == false {
+                checking = true
+            }
+            else if title == ":" && checking == true {
+                wordToReplace = wordToReplace.substringFromIndex(wordToReplace.characters.startIndex.advancedBy(1))
+                var numberOfBackSpaces = wordToReplace.characters.count + 2
+                for var i = 0; i < numberOfBackSpaces; i++ {
+                    (textDocumentProxy as UIKeyInput).deleteBackward()
+                }
+                
+                (textDocumentProxy as UIKeyInput).insertText(getEmoji(wordToReplace))
+                
+                wordToReplace = ""
+                checking = false
+            }
+            
+            if keyboardType == "Upper" || keyboardType == "UpperStart"{
+                loadKeysLower()
+            }
+            
             break
+        }
+        
+        if checking == true {
+            createWord(title!)
         }
     }
     
+    //Figure out better constraints
     func addConstraints(buttons: [UIButton], containingView: UIView){
         
         for(var i = 0; i < buttons.count; i++) {
@@ -357,8 +420,8 @@ class KeyboardViewController: UIInputViewController {
         }
     }
     
+    //Put it in the keyboard
     func addNextKeyBoardButton() {
-        // Perform custom UI setup here
         self.nextKeyboardButton = UIButton(type: .System)
         
         self.nextKeyboardButton.setTitle(NSLocalizedString("Next Keyboard", comment: "Title for 'Next Keyboard' button"), forState: .Normal)
@@ -378,6 +441,40 @@ class KeyboardViewController: UIInputViewController {
     func createKeyboard() {
         addNextKeyBoardButton()
         loadKeysUpper()
+        getResource()
+    }
+    
+    func createWord(typed: String) {
+        switch typed {
+        case "123","#+=","ABC","⇧","return":
+            break
+        case "🔙":
+            wordToReplace = wordToReplace.substringToIndex(wordToReplace.characters.endIndex.advancedBy(-1))
+            break
+        case "🌐":
+            wordToReplace = ""
+            advanceToNextInputMode()
+            break
+        case "space":
+            wordToReplace = wordToReplace + " "
+            break
+        default:
+            wordToReplace = wordToReplace + typed
+            break
+        }
+    }
+    
+    func getEmoji(word: String) -> String {
+        if emojiWord[word.lowercaseString] != nil {
+            return emojiWord[word.lowercaseString]! as! String
+        }
+        else {
+            return word
+        }
     }
 
+    func getResource() {
+        let path = NSBundle.mainBundle().pathForResource("EmojiWord", ofType: "plist")
+        emojiWord = NSDictionary(contentsOfFile: path!)!
+    }
 }

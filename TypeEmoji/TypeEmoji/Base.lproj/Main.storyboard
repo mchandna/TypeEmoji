@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -18,26 +17,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SmP-ft-Ggh">
-                                <rect key="frame" x="252" y="285" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Type Emoji Keyboard" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXT-nb-suB">
+                                <rect key="frame" x="20" y="55" width="560" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="SmP-ft-Ggh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0uR-4e-9s0"/>
-                            <constraint firstItem="SmP-ft-Ggh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="jIp-ly-Pj1"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="SmP-ft-Ggh" secondAttribute="trailing" id="n9T-eH-Sx3"/>
-                            <constraint firstItem="SmP-ft-Ggh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pPN-hx-n1h"/>
+                            <constraint firstItem="YXT-nb-suB" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="GQz-hr-iI1"/>
+                            <constraint firstItem="YXT-nb-suB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="35" id="egi-FJ-hD0"/>
+                            <constraint firstItem="YXT-nb-suB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lkH-Ug-vj1"/>
+                            <constraint firstItem="YXT-nb-suB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="noF-sW-fcv"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="textField" destination="SmP-ft-Ggh" id="fwO-12-kka"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="460" y="387"/>
         </scene>
     </scenes>
 </document>

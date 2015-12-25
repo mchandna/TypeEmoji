@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E12BFF211C2B67FB0046BFDD /* EmojiWord.plist in Resources */ = {isa = PBXBuildFile; fileRef = E12BFF201C2B67FB0046BFDD /* EmojiWord.plist */; };
+		E12BFF221C2B67FB0046BFDD /* EmojiWord.plist in Resources */ = {isa = PBXBuildFile; fileRef = E12BFF201C2B67FB0046BFDD /* EmojiWord.plist */; };
+		E12BFF231C2B67FB0046BFDD /* EmojiWord.plist in Resources */ = {isa = PBXBuildFile; fileRef = E12BFF201C2B67FB0046BFDD /* EmojiWord.plist */; };
+		E12BFF241C2B67FB0046BFDD /* EmojiWord.plist in Resources */ = {isa = PBXBuildFile; fileRef = E12BFF201C2B67FB0046BFDD /* EmojiWord.plist */; };
 		E19F2C8D1C1FBFAD00D8A8CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19F2C8C1C1FBFAD00D8A8CD /* AppDelegate.swift */; };
 		E19F2C8F1C1FBFAD00D8A8CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19F2C8E1C1FBFAD00D8A8CD /* ViewController.swift */; };
 		E19F2C921C1FBFAD00D8A8CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19F2C901C1FBFAD00D8A8CD /* Main.storyboard */; };
@@ -57,6 +61,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E12BFF201C2B67FB0046BFDD /* EmojiWord.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EmojiWord.plist; sourceTree = "<group>"; };
 		E19F2C891C1FBFAD00D8A8CD /* TypeEmoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypeEmoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E19F2C8C1C1FBFAD00D8A8CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E19F2C8E1C1FBFAD00D8A8CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -164,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				E19F2CC01C1FBFD000D8A8CD /* KeyboardViewController.swift */,
+				E12BFF201C2B67FB0046BFDD /* EmojiWord.plist */,
 				E19F2CC21C1FBFD000D8A8CD /* Info.plist */,
 			);
 			path = "TypeEmoji Keyboard";
@@ -301,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E19F2C971C1FBFAD00D8A8CD /* LaunchScreen.storyboard in Resources */,
+				E12BFF211C2B67FB0046BFDD /* EmojiWord.plist in Resources */,
 				E19F2C941C1FBFAD00D8A8CD /* Assets.xcassets in Resources */,
 				E19F2C921C1FBFAD00D8A8CD /* Main.storyboard in Resources */,
 			);
@@ -310,6 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E12BFF221C2B67FB0046BFDD /* EmojiWord.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +325,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E12BFF231C2B67FB0046BFDD /* EmojiWord.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +333,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E12BFF241C2B67FB0046BFDD /* EmojiWord.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +502,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = TypeEmoji/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.mitalichandna.TypeEmoji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -504,6 +515,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = TypeEmoji/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.mitalichandna.TypeEmoji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
