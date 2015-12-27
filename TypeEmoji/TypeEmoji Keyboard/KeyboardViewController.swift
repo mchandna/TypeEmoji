@@ -78,7 +78,7 @@ class KeyboardViewController: UIInputViewController {
         
         self.view.addSubview(secondRowKeyboard)
         
-        addConstraints(keys, containingView: secondRowKeyboard)
+        addConstraintsTest(keys, containingView: secondRowKeyboard)
         
         keyTitles = ["⇧","Z", "X", "C", "V", "B", "N", "M", "🔙"]
         keys = createKeys(keyTitles)
@@ -91,7 +91,7 @@ class KeyboardViewController: UIInputViewController {
         
         self.view.addSubview(thirdRowKeyboard)
         
-        addConstraints(keys, containingView: thirdRowKeyboard)
+        addConstraintsTest2(keys, containingView: thirdRowKeyboard)
         
         keyTitles = ["123", "🌐", ":", "space", "return"]
         keys = createKeys(keyTitles)
@@ -104,7 +104,7 @@ class KeyboardViewController: UIInputViewController {
         
         self.view.addSubview(fourthRowKeyboard)
         
-        addConstraints(keys, containingView: fourthRowKeyboard)
+        addConstraintsTest3(keys, containingView: fourthRowKeyboard)
         
         keyboardType = "Upper"
     }
@@ -136,7 +136,7 @@ class KeyboardViewController: UIInputViewController {
         
         self.view.addSubview(secondRowKeyboard)
         
-        addConstraints(keys, containingView: secondRowKeyboard)
+        addConstraintsTest(keys, containingView: secondRowKeyboard)
         
         keyTitles = ["⇧", "z", "x", "c", "v", "b", "n", "m", "🔙"]
         keys = createKeys(keyTitles)
@@ -149,7 +149,7 @@ class KeyboardViewController: UIInputViewController {
         
         self.view.addSubview(thirdRowKeyboard)
         
-        addConstraints(keys, containingView: thirdRowKeyboard)
+        addConstraintsTest2(keys, containingView: thirdRowKeyboard)
         
         keyTitles = ["123", "🌐", ":", "space", "return"]
         keys = createKeys(keyTitles)
@@ -162,7 +162,7 @@ class KeyboardViewController: UIInputViewController {
         
         self.view.addSubview(fourthRowKeyboard)
         
-        addConstraints(keys, containingView: fourthRowKeyboard)
+        addConstraintsTest3(keys, containingView: fourthRowKeyboard)
         
         keyboardType = "Lower"
     }
@@ -207,7 +207,7 @@ class KeyboardViewController: UIInputViewController {
         
         self.view.addSubview(thirdRowKeyboard)
         
-        addConstraints(keys, containingView: thirdRowKeyboard)
+        addConstraintsTest4(keys, containingView: thirdRowKeyboard)
         
         keyTitles = ["ABC", "🌐", ":", "space", "return"]
         keys = createKeys(keyTitles)
@@ -220,7 +220,7 @@ class KeyboardViewController: UIInputViewController {
         
         self.view.addSubview(fourthRowKeyboard)
         
-        addConstraints(keys, containingView: fourthRowKeyboard)
+        addConstraintsTest3(keys, containingView: fourthRowKeyboard)
         
         keyboardType = "Numeric"
     }
@@ -265,9 +265,9 @@ class KeyboardViewController: UIInputViewController {
         
         self.view.addSubview(thirdRowKeyboard)
         
-        addConstraints(keys, containingView: thirdRowKeyboard)
+        addConstraintsTest4(keys, containingView: thirdRowKeyboard)
         
-        keyTitles = ["ABC", "", ":", "space", "return"]
+        keyTitles = ["ABC", "🌐", ":", "space", "return"]
         keys = createKeys(keyTitles)
         
         var fourthRowKeyboard = UIView(frame: CGRect(x: 0, y: 165, width: screenSize.width, height: 55))
@@ -278,7 +278,7 @@ class KeyboardViewController: UIInputViewController {
         
         self.view.addSubview(fourthRowKeyboard)
         
-        addConstraints(keys, containingView: fourthRowKeyboard)
+        addConstraintsTest3(keys, containingView: fourthRowKeyboard)
         
         keyboardType = "Special"
     }
@@ -289,7 +289,13 @@ class KeyboardViewController: UIInputViewController {
         for keyTitle in keyTitles {
             let keyButton = UIButton(type: .System) as UIButton
             keyButton.setTitle(keyTitle, forState: UIControlState.Normal)
-            keyButton.titleLabel!.font = UIFont(name: "System", size: 20.0)
+            if  keyTitle == "123" || keyTitle == "ABC" || keyTitle == "return" || keyTitle == "#+=" || keyTitle == "🔙" || keyTitle == "⇧" || keyTitle == "space"{
+                keyButton.titleLabel!.font = UIFont(name: "Arial", size: 17.0)
+                keyButton.backgroundColor = UIColor.redColor()
+            }
+            else {
+                keyButton.titleLabel!.font = UIFont(name: "Arial", size: 22.0)
+            }
             keyButton.translatesAutoresizingMaskIntoConstraints = false
             keyButton.backgroundColor = UIColor(white: 1.0, alpha: 1.0)
             keyButton.setTitleColor(UIColor.darkGrayColor(), forState: UIControlState.Normal)
@@ -389,18 +395,17 @@ class KeyboardViewController: UIInputViewController {
         if checking == true {
             createWord(title!)
         }
-        
+    
         lastKeyPressed = title!
     }
     
-    //Figure out better constraints
     func addConstraints(buttons: [UIButton], containingView: UIView){
         
         for(var i = 0; i < buttons.count; i++) {
-            
+        
             var topConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Top, relatedBy: .Equal, toItem: containingView, attribute: .Top, multiplier: 1.0, constant: 1)
             
-            var bottomConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Bottom, relatedBy: .Equal, toItem: containingView, attribute: .Bottom, multiplier: 1.0, constant: -1)
+            var bottomConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Bottom, relatedBy: .Equal, toItem: containingView, attribute: .Bottom, multiplier: 1.0, constant: 0)
             
             var leftConstraint : NSLayoutConstraint!
             
@@ -499,4 +504,200 @@ class KeyboardViewController: UIInputViewController {
             view.removeFromSuperview()
         }
     }
+    
+    func addConstraintsTest(buttons: [UIButton], containingView: UIView){
+        
+        for(var i = 0; i < buttons.count; i++) {
+            
+            var topConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Top, relatedBy: .Equal, toItem: containingView, attribute: .Top, multiplier: 1.0, constant: 1)
+            
+            var bottomConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Bottom, relatedBy: .Equal, toItem: containingView, attribute: .Bottom, multiplier: 1.0, constant: 0)
+            
+            var leftConstraint : NSLayoutConstraint!
+            
+            if i == 0 {
+                
+                leftConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Left, relatedBy: .Equal, toItem: containingView, attribute: .Left, multiplier: 1.0, constant: (screenSize.width/20.0))
+                
+            } else {
+                
+                leftConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Left, relatedBy: .Equal, toItem: buttons[i-1], attribute: .Right, multiplier: 1.0, constant: 1)
+                
+                var widthConstraint = NSLayoutConstraint(item: buttons[0], attribute: .Width, relatedBy: .Equal, toItem: buttons[i], attribute: .Width, multiplier: 1.0, constant: 0)
+                
+                containingView.addConstraint(widthConstraint)
+            }
+            
+            var rightConstraint : NSLayoutConstraint!
+            
+            if i == buttons.count - 1 {
+                
+                rightConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Right, relatedBy: .Equal, toItem: containingView, attribute: .Right, multiplier: 1.0, constant: -(screenSize.width/20.0))
+                
+            } else{
+                
+                rightConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Right, relatedBy: .Equal, toItem: buttons[i+1], attribute: .Left, multiplier: 1.0, constant: -1)
+            }
+            
+            containingView.addConstraints([topConstraint, bottomConstraint, rightConstraint, leftConstraint])
+        }
+    }
+
+    func addConstraintsTest2(buttons: [UIButton], containingView: UIView){
+        
+        for(var i = 0; i < buttons.count; i++) {
+            
+            var topConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Top, relatedBy: .Equal, toItem: containingView, attribute: .Top, multiplier: 1.0, constant: 1)
+            
+            var bottomConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Bottom, relatedBy: .Equal, toItem: containingView, attribute: .Bottom, multiplier: 1.0, constant: 0)
+            
+            var leftConstraint : NSLayoutConstraint!
+            
+            if i == 0 {
+                
+                leftConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Left, relatedBy: .Equal, toItem: containingView, attribute: .Left, multiplier: 1.0, constant: 1)
+                
+            } else if i == 1 {
+                leftConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Left, relatedBy: .Equal, toItem: containingView, attribute: .Left, multiplier: 1.0, constant: (screenSize.width/10.0) + (screenSize.width/20.0))
+                var widthConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Width, relatedBy: .Equal, toItem: buttons[0], attribute: .Width, multiplier: 1.0, constant:  (-screenSize.width/20.0) + 1)
+                
+                containingView.addConstraint(widthConstraint)
+            } else{
+                
+                leftConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Left, relatedBy: .Equal, toItem: buttons[i-1], attribute: .Right, multiplier: 1.0, constant: 1)
+                
+                var widthConstraint: NSLayoutConstraint!
+                if i == buttons.count - 1 {
+
+                    widthConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Width, relatedBy: .Equal, toItem: buttons[i-1], attribute: .Width, multiplier: 1.0, constant: (screenSize.width/20.0)+1)
+                }
+                else {
+                    widthConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Width, relatedBy: .Equal, toItem: buttons[i-1], attribute: .Width, multiplier: 1.0, constant: 0)
+                }
+                
+                containingView.addConstraint(widthConstraint)
+            }
+            
+            var rightConstraint : NSLayoutConstraint!
+            
+            if i == buttons.count - 1 {
+                
+                rightConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Right, relatedBy: .Equal, toItem: containingView, attribute: .Right, multiplier: 1.0, constant: -1)
+                
+            } else{
+                
+                rightConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Right, relatedBy: .Equal, toItem: buttons[i+1], attribute: .Left, multiplier: 1.0, constant: -1)
+            }
+            
+            containingView.addConstraints([topConstraint, bottomConstraint, rightConstraint, leftConstraint])
+        }
+    }
+    
+    func addConstraintsTest3(buttons: [UIButton], containingView: UIView){
+        
+        for(var i = 0; i < buttons.count; i++) {
+            
+            var topConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Top, relatedBy: .Equal, toItem: containingView, attribute: .Top, multiplier: 1.0, constant: 1)
+            
+            var bottomConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Bottom, relatedBy: .Equal, toItem: containingView, attribute: .Bottom, multiplier: 1.0, constant: 0)
+            
+            var leftConstraint : NSLayoutConstraint!
+            
+            if i == 0 {
+                
+                leftConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Left, relatedBy: .Equal, toItem: containingView, attribute: .Left, multiplier: 1.0, constant: 1)
+                
+            } else if i == 1 {
+                leftConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Left, relatedBy: .Equal, toItem: containingView, attribute: .Left, multiplier: 1.0, constant: (screenSize.width/8.0))
+                var widthConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Width, relatedBy: .Equal, toItem: buttons[0], attribute: .Width, multiplier: 0.0, constant:  (screenSize.width/8.0)-1)
+                
+                containingView.addConstraint(widthConstraint)
+            } else if i == 2 {
+                leftConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Left, relatedBy: .Equal, toItem: buttons[i-1], attribute: .Right, multiplier: 1.0, constant: 1)
+                
+                var widthConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Width, relatedBy: .Equal, toItem: buttons[i-1], attribute: .Width, multiplier: 0.0, constant: (screenSize.width/10.0)-1)
+                
+                containingView.addConstraint(widthConstraint)
+            }
+            else if i == 3 {
+                leftConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Left, relatedBy: .Equal, toItem: buttons[i-1], attribute: .Right, multiplier: 1.0, constant: 1)
+                
+                var widthConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Width, relatedBy: .Equal, toItem: buttons[i-1], attribute: .Width, multiplier: 0.0, constant: 2.0*(screenSize.width/5.0)-1)
+                
+                containingView.addConstraint(widthConstraint)
+            } else {
+                
+                leftConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Left, relatedBy: .Equal, toItem: buttons[i-1], attribute: .Right, multiplier: 1.0, constant: 1)
+                
+                var widthConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Width, relatedBy: .Equal, toItem: buttons[0], attribute: .Width, multiplier: 0.0, constant:  (screenSize.width/4.0)-1)
+                
+                containingView.addConstraint(widthConstraint)
+            }
+            
+            var rightConstraint : NSLayoutConstraint!
+            
+            if i == buttons.count - 1 {
+                
+                rightConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Right, relatedBy: .Equal, toItem: containingView, attribute: .Right, multiplier: 1.0, constant: -1)
+                
+            } else{
+                
+                rightConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Right, relatedBy: .Equal, toItem: buttons[i+1], attribute: .Left, multiplier: 1.0, constant: -1)
+            }
+            
+            containingView.addConstraints([topConstraint, bottomConstraint, rightConstraint, leftConstraint])
+        }
+    }
+    
+    func addConstraintsTest4(buttons: [UIButton], containingView: UIView){
+        
+        for(var i = 0; i < buttons.count; i++) {
+            
+            var topConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Top, relatedBy: .Equal, toItem: containingView, attribute: .Top, multiplier: 1.0, constant: 1)
+            
+            var bottomConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Bottom, relatedBy: .Equal, toItem: containingView, attribute: .Bottom, multiplier: 1.0, constant: 0)
+            
+            var leftConstraint : NSLayoutConstraint!
+            
+            if i == 0 {
+                
+                leftConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Left, relatedBy: .Equal, toItem: containingView, attribute: .Left, multiplier: 1.0, constant: 1)
+                
+            } else if i == 1 {
+                leftConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Left, relatedBy: .Equal, toItem: containingView, attribute: .Left, multiplier: 1.0, constant: (screenSize.width/10.0) + (screenSize.width/20.0))
+                var widthConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Width, relatedBy: .Equal, toItem: buttons[0], attribute: .Width, multiplier: 0.0, constant:  (-(7)*screenSize.width/10.0)/5 + 1)
+                
+                containingView.addConstraint(widthConstraint)
+            } else{
+                
+                leftConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Left, relatedBy: .Equal, toItem: buttons[i-1], attribute: .Right, multiplier: 1.0, constant: 1)
+                
+                var widthConstraint: NSLayoutConstraint!
+                if i == buttons.count - 1 {
+                    
+                    widthConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Width, relatedBy: .Equal, toItem: buttons[i-1], attribute: .Width, multiplier: 0, constant: ((3.0)*screenSize.width/20.0)-1)
+                }
+                else {
+                    widthConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Width, relatedBy: .Equal, toItem: buttons[i-1], attribute: .Width, multiplier: 1.0, constant: 0)
+                }
+                
+                containingView.addConstraint(widthConstraint)
+            }
+            
+            var rightConstraint : NSLayoutConstraint!
+            
+            if i == buttons.count - 1 {
+                
+                rightConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Right, relatedBy: .Equal, toItem: containingView, attribute: .Right, multiplier: 1.0, constant: -1)
+                
+            } else{
+                
+                rightConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Right, relatedBy: .Equal, toItem: buttons[i+1], attribute: .Left, multiplier: 1.0, constant: -1)
+            }
+            
+            containingView.addConstraints([topConstraint, bottomConstraint, rightConstraint, leftConstraint])
+        }
+    }
+    
+
 }

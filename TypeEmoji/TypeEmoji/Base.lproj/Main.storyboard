@@ -216,22 +216,22 @@
                                 <color key="tintColor" red="1" green="0.22974985680000001" blue="0.1438699702" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rFk-UQ-WK1">
-                                <rect key="frame" x="137" y="72" width="327" height="63"/>
+                                <rect key="frame" x="137" y="72" width="298" height="63"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="327" id="IWJ-bB-aRo"/>
-                                    <constraint firstAttribute="height" constant="63" id="mrH-mn-xbJ"/>
+                                    <constraint firstAttribute="height" constant="63" id="fP3-5f-dyd"/>
+                                    <constraint firstAttribute="width" constant="298" id="rAn-5P-A65"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Type Emoji Keyboard" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9FY-1P-9Au">
-                                <rect key="frame" x="142" y="77" width="317" height="53"/>
+                                <rect key="frame" x="142" y="77" width="287" height="53"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="53" id="4vu-iP-CCu"/>
-                                    <constraint firstAttribute="width" constant="317" id="EcU-wJ-fwe"/>
+                                    <constraint firstAttribute="height" constant="53" id="8V1-YK-VJd"/>
+                                    <constraint firstAttribute="width" constant="287" id="eWd-zw-Ret"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
