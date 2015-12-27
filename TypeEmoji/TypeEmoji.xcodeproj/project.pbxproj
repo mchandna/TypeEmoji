@@ -20,6 +20,8 @@
 		E19F2CAD1C1FBFAD00D8A8CD /* TypeEmojiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19F2CAC1C1FBFAD00D8A8CD /* TypeEmojiUITests.swift */; };
 		E19F2CC11C1FBFD000D8A8CD /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19F2CC01C1FBFD000D8A8CD /* KeyboardViewController.swift */; };
 		E19F2CC51C1FBFD000D8A8CD /* TypeEmoji Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E19F2CBE1C1FBFD000D8A8CD /* TypeEmoji Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E1E9E72C1C2E5D8F0096A305 /* InstallingKeyboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E9E72B1C2E5D8F0096A305 /* InstallingKeyboardController.swift */; };
+		E1E9E72E1C2E5DB50096A305 /* UsingKeyboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E9E72D1C2E5DB50096A305 /* UsingKeyboardController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +80,8 @@
 		E19F2CBE1C1FBFD000D8A8CD /* TypeEmoji Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TypeEmoji Keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E19F2CC01C1FBFD000D8A8CD /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		E19F2CC21C1FBFD000D8A8CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1E9E72B1C2E5D8F0096A305 /* InstallingKeyboardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstallingKeyboardController.swift; sourceTree = "<group>"; };
+		E1E9E72D1C2E5DB50096A305 /* UsingKeyboardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsingKeyboardController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,9 +141,11 @@
 		E19F2C8B1C1FBFAD00D8A8CD /* TypeEmoji */ = {
 			isa = PBXGroup;
 			children = (
+				E1E9E72B1C2E5D8F0096A305 /* InstallingKeyboardController.swift */,
 				E19F2C8C1C1FBFAD00D8A8CD /* AppDelegate.swift */,
 				E19F2C8E1C1FBFAD00D8A8CD /* ViewController.swift */,
 				E19F2C901C1FBFAD00D8A8CD /* Main.storyboard */,
+				E1E9E72D1C2E5DB50096A305 /* UsingKeyboardController.swift */,
 				E19F2C931C1FBFAD00D8A8CD /* Assets.xcassets */,
 				E19F2C951C1FBFAD00D8A8CD /* LaunchScreen.storyboard */,
 				E19F2C981C1FBFAD00D8A8CD /* Info.plist */,
@@ -344,8 +350,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1E9E72C1C2E5D8F0096A305 /* InstallingKeyboardController.swift in Sources */,
 				E19F2C8F1C1FBFAD00D8A8CD /* ViewController.swift in Sources */,
 				E19F2C8D1C1FBFAD00D8A8CD /* AppDelegate.swift in Sources */,
+				E1E9E72E1C2E5DB50096A305 /* UsingKeyboardController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
