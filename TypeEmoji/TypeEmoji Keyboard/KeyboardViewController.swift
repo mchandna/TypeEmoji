@@ -10,12 +10,11 @@ import UIKit
 class KeyboardViewController: UIInputViewController {
     
     @IBOutlet var nextKeyboardButton: UIButton!
-    var keyboardType = "UpperStart" //Figure out keyboard shift key
+    var keyboardType:String = "UpperStart"
     var lastKeyPressed: String = ""
     var checking: Bool = false
     var wordToReplace: String = ""
     var emojiWord = NSDictionary()
-    var lastKeypressed: String = ""
     var screenSize = CGRect()
     
     override func viewDidLoad() {
@@ -27,16 +26,12 @@ class KeyboardViewController: UIInputViewController {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated
     }
     
     override func textWillChange(textInput: UITextInput?) {
-        // The app is about to change the document's contents. Perform any preparation here.
     }
     
     override func textDidChange(textInput: UITextInput?) {
-        // The app has just changed the document's contents, the document context has been updated.
-        
         var textColor: UIColor
         let proxy = self.textDocumentProxy
         if proxy.keyboardAppearance == UIKeyboardAppearance.Dark {
@@ -49,8 +44,6 @@ class KeyboardViewController: UIInputViewController {
     
     //MARK: Methods
     
-    //Possibly make this using xib file?
-    //Possibly make new class for these methods
     func loadKeysUpper() {
         emptySuperView()
         
@@ -65,7 +58,7 @@ class KeyboardViewController: UIInputViewController {
 
         self.view.addSubview(topRowKeyboard)
         
-        addConstraints(keys, containingView: topRowKeyboard)
+        addConstraintsRow0(keys, containingView: topRowKeyboard)
         
         keyTitles = ["A", "S", "D", "F", "G", "H", "J", "K", "L"]
         keys = createKeys(keyTitles)
@@ -78,7 +71,7 @@ class KeyboardViewController: UIInputViewController {
         
         self.view.addSubview(secondRowKeyboard)
         
-        addConstraintsTest(keys, containingView: secondRowKeyboard)
+        addConstraintsRow1(keys, containingView: secondRowKeyboard)
         
         keyTitles = ["⇧","Z", "X", "C", "V", "B", "N", "M", "🔙"]
         keys = createKeys(keyTitles)
@@ -91,7 +84,7 @@ class KeyboardViewController: UIInputViewController {
         
         self.view.addSubview(thirdRowKeyboard)
         
-        addConstraintsTest2(keys, containingView: thirdRowKeyboard)
+        addConstraintsRow2(keys, containingView: thirdRowKeyboard)
         
         keyTitles = ["123", "🌐", ":", "space", "return"]
         keys = createKeys(keyTitles)
@@ -104,7 +97,7 @@ class KeyboardViewController: UIInputViewController {
         
         self.view.addSubview(fourthRowKeyboard)
         
-        addConstraintsTest3(keys, containingView: fourthRowKeyboard)
+        addConstraintsRow3(keys, containingView: fourthRowKeyboard)
         
         keyboardType = "Upper"
     }
@@ -123,7 +116,7 @@ class KeyboardViewController: UIInputViewController {
         
         self.view.addSubview(topRowKeyboard)
         
-        addConstraints(keys, containingView: topRowKeyboard)
+        addConstraintsRow0(keys, containingView: topRowKeyboard)
         
         keyTitles = ["a", "s", "d", "f", "g", "h", "j", "k", "l"]
         keys = createKeys(keyTitles)
@@ -136,7 +129,7 @@ class KeyboardViewController: UIInputViewController {
         
         self.view.addSubview(secondRowKeyboard)
         
-        addConstraintsTest(keys, containingView: secondRowKeyboard)
+        addConstraintsRow1(keys, containingView: secondRowKeyboard)
         
         keyTitles = ["⇧", "z", "x", "c", "v", "b", "n", "m", "🔙"]
         keys = createKeys(keyTitles)
@@ -149,7 +142,7 @@ class KeyboardViewController: UIInputViewController {
         
         self.view.addSubview(thirdRowKeyboard)
         
-        addConstraintsTest2(keys, containingView: thirdRowKeyboard)
+        addConstraintsRow2(keys, containingView: thirdRowKeyboard)
         
         keyTitles = ["123", "🌐", ":", "space", "return"]
         keys = createKeys(keyTitles)
@@ -162,7 +155,7 @@ class KeyboardViewController: UIInputViewController {
         
         self.view.addSubview(fourthRowKeyboard)
         
-        addConstraintsTest3(keys, containingView: fourthRowKeyboard)
+        addConstraintsRow3(keys, containingView: fourthRowKeyboard)
         
         keyboardType = "Lower"
     }
@@ -181,7 +174,7 @@ class KeyboardViewController: UIInputViewController {
         
         self.view.addSubview(topRowKeyboard)
         
-        addConstraints(keys, containingView: topRowKeyboard)
+        addConstraintsRow0(keys, containingView: topRowKeyboard)
         
         keyTitles = ["-", "/", ":", ";", "(", ")", "$", "&", "@", "\""]
         keys = createKeys(keyTitles)
@@ -194,7 +187,7 @@ class KeyboardViewController: UIInputViewController {
         
         self.view.addSubview(secondRowKeyboard)
         
-        addConstraints(keys, containingView: secondRowKeyboard)
+        addConstraintsRow1(keys, containingView: secondRowKeyboard)
         
         keyTitles = ["#+=", ".", ",", "?", "!", "'", "🔙"]
         keys = createKeys(keyTitles)
@@ -207,7 +200,7 @@ class KeyboardViewController: UIInputViewController {
         
         self.view.addSubview(thirdRowKeyboard)
         
-        addConstraintsTest4(keys, containingView: thirdRowKeyboard)
+        addConstraintsRow2Special(keys, containingView: thirdRowKeyboard)
         
         keyTitles = ["ABC", "🌐", ":", "space", "return"]
         keys = createKeys(keyTitles)
@@ -220,7 +213,7 @@ class KeyboardViewController: UIInputViewController {
         
         self.view.addSubview(fourthRowKeyboard)
         
-        addConstraintsTest3(keys, containingView: fourthRowKeyboard)
+        addConstraintsRow3(keys, containingView: fourthRowKeyboard)
         
         keyboardType = "Numeric"
     }
@@ -239,7 +232,7 @@ class KeyboardViewController: UIInputViewController {
         
         self.view.addSubview(topRowKeyboard)
         
-        addConstraints(keys, containingView: topRowKeyboard)
+        addConstraintsRow0(keys, containingView: topRowKeyboard)
         
         keyTitles = ["_", "\\", "|", "~", "<", ">", "€", "£", "¥", "·"]
         keys = createKeys(keyTitles)
@@ -252,7 +245,7 @@ class KeyboardViewController: UIInputViewController {
         
         self.view.addSubview(secondRowKeyboard)
         
-        addConstraints(keys, containingView: secondRowKeyboard)
+        addConstraintsRow1(keys, containingView: secondRowKeyboard)
         
         keyTitles = ["123", ".", ",", "?", "!", "'", "🔙"]
         keys = createKeys(keyTitles)
@@ -265,7 +258,7 @@ class KeyboardViewController: UIInputViewController {
         
         self.view.addSubview(thirdRowKeyboard)
         
-        addConstraintsTest4(keys, containingView: thirdRowKeyboard)
+        addConstraintsRow2Special(keys, containingView: thirdRowKeyboard)
         
         keyTitles = ["ABC", "🌐", ":", "space", "return"]
         keys = createKeys(keyTitles)
@@ -278,7 +271,7 @@ class KeyboardViewController: UIInputViewController {
         
         self.view.addSubview(fourthRowKeyboard)
         
-        addConstraintsTest3(keys, containingView: fourthRowKeyboard)
+        addConstraintsRow3(keys, containingView: fourthRowKeyboard)
         
         keyboardType = "Special"
     }
@@ -399,44 +392,6 @@ class KeyboardViewController: UIInputViewController {
         lastKeyPressed = title!
     }
     
-    func addConstraints(buttons: [UIButton], containingView: UIView){
-        
-        for(var i = 0; i < buttons.count; i++) {
-        
-            var topConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Top, relatedBy: .Equal, toItem: containingView, attribute: .Top, multiplier: 1.0, constant: 1)
-            
-            var bottomConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Bottom, relatedBy: .Equal, toItem: containingView, attribute: .Bottom, multiplier: 1.0, constant: 0)
-            
-            var leftConstraint : NSLayoutConstraint!
-            
-            if i == 0 {
-                
-                leftConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Left, relatedBy: .Equal, toItem: containingView, attribute: .Left, multiplier: 1.0, constant: 1)
-                
-            } else{
-                
-                leftConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Left, relatedBy: .Equal, toItem: buttons[i-1], attribute: .Right, multiplier: 1.0, constant: 1)
-                
-                var widthConstraint = NSLayoutConstraint(item: buttons[0], attribute: .Width, relatedBy: .Equal, toItem: buttons[i], attribute: .Width, multiplier: 1.0, constant: 0)
-                
-                containingView.addConstraint(widthConstraint)
-            }
-            
-            var rightConstraint : NSLayoutConstraint!
-            
-            if i == buttons.count - 1 {
-                
-                rightConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Right, relatedBy: .Equal, toItem: containingView, attribute: .Right, multiplier: 1.0, constant: -1)
-                
-            } else{
-                
-                rightConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Right, relatedBy: .Equal, toItem: buttons[i+1], attribute: .Left, multiplier: 1.0, constant: -1)
-            }
-            
-            containingView.addConstraints([topConstraint, bottomConstraint, rightConstraint, leftConstraint])
-        }
-    }
-    
     //Put it in the keyboard
     func addNextKeyBoardButton() {
         self.nextKeyboardButton = UIButton(type: .System)
@@ -505,7 +460,45 @@ class KeyboardViewController: UIInputViewController {
         }
     }
     
-    func addConstraintsTest(buttons: [UIButton], containingView: UIView){
+    func addConstraintsRow0(buttons: [UIButton], containingView: UIView){
+        
+        for(var i = 0; i < buttons.count; i++) {
+            
+            var topConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Top, relatedBy: .Equal, toItem: containingView, attribute: .Top, multiplier: 1.0, constant: 1)
+            
+            var bottomConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Bottom, relatedBy: .Equal, toItem: containingView, attribute: .Bottom, multiplier: 1.0, constant: 0)
+            
+            var leftConstraint : NSLayoutConstraint!
+            
+            if i == 0 {
+                
+                leftConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Left, relatedBy: .Equal, toItem: containingView, attribute: .Left, multiplier: 1.0, constant: 1)
+                
+            } else{
+                
+                leftConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Left, relatedBy: .Equal, toItem: buttons[i-1], attribute: .Right, multiplier: 1.0, constant: 1)
+                
+                var widthConstraint = NSLayoutConstraint(item: buttons[0], attribute: .Width, relatedBy: .Equal, toItem: buttons[i], attribute: .Width, multiplier: 1.0, constant: 0)
+                
+                containingView.addConstraint(widthConstraint)
+            }
+            
+            var rightConstraint : NSLayoutConstraint!
+            
+            if i == buttons.count - 1 {
+                
+                rightConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Right, relatedBy: .Equal, toItem: containingView, attribute: .Right, multiplier: 1.0, constant: -1)
+                
+            } else{
+                
+                rightConstraint = NSLayoutConstraint(item: buttons[i], attribute: .Right, relatedBy: .Equal, toItem: buttons[i+1], attribute: .Left, multiplier: 1.0, constant: -1)
+            }
+            
+            containingView.addConstraints([topConstraint, bottomConstraint, rightConstraint, leftConstraint])
+        }
+    }
+
+    func addConstraintsRow1(buttons: [UIButton], containingView: UIView){
         
         for(var i = 0; i < buttons.count; i++) {
             
@@ -543,7 +536,7 @@ class KeyboardViewController: UIInputViewController {
         }
     }
 
-    func addConstraintsTest2(buttons: [UIButton], containingView: UIView){
+    func addConstraintsRow2(buttons: [UIButton], containingView: UIView){
         
         for(var i = 0; i < buttons.count; i++) {
             
@@ -593,7 +586,7 @@ class KeyboardViewController: UIInputViewController {
         }
     }
     
-    func addConstraintsTest3(buttons: [UIButton], containingView: UIView){
+    func addConstraintsRow3(buttons: [UIButton], containingView: UIView){
         
         for(var i = 0; i < buttons.count; i++) {
             
@@ -649,7 +642,7 @@ class KeyboardViewController: UIInputViewController {
         }
     }
     
-    func addConstraintsTest4(buttons: [UIButton], containingView: UIView){
+    func addConstraintsRow2Special(buttons: [UIButton], containingView: UIView){
         
         for(var i = 0; i < buttons.count; i++) {
             
