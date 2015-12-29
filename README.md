@@ -11,4 +11,5 @@ Keyboard target replaces keywords surrounded by : with emojis
 For example ":smile:" gets replaced with "😄" automatically using this custom keyboard 
 
 Here's a live demo: (Please excuse the horrible quality of the gif) 
+![alt tag](https://cloud.githubusercontent.com/assets/15880950/12029247/0f299430-adb4-11e5-9798-dfdf73499f98.gif)
 
