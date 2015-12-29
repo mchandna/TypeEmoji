@@ -7,7 +7,7 @@
 //
 import UIKit
 
-class KeyboardViewController: UIInputViewController, UITextFieldDelegate {
+class KeyboardViewController: UIInputViewController {
     
     @IBOutlet var nextKeyboardButton: UIButton!
     var keyboardType:String = "UpperStart"
