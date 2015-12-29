@@ -335,6 +335,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="emojiBackground" width="922" height="686"/>
+        <image name="emojiBackground" width="463" height="682"/>
     </resources>
 </document>

@@ -23,5 +23,10 @@ class ViewController: UIViewController {
     
     @IBAction func prepareForUnwind(segue: UIStoryboardSegue) {
     }
+    
+    override func shouldAutorotate() -> Bool {
+        return false
+    }
+
 }
 

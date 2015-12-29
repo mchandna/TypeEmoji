@@ -7,7 +7,7 @@
 //
 import UIKit
 
-class KeyboardViewController: UIInputViewController {
+class KeyboardViewController: UIInputViewController, UITextFieldDelegate {
     
     @IBOutlet var nextKeyboardButton: UIButton!
     var keyboardType:String = "UpperStart"
@@ -16,10 +16,17 @@ class KeyboardViewController: UIInputViewController {
     var wordToReplace: String = ""
     var emojiWord = NSDictionary()
     var screenSize = CGRect()
+    var portrait: Bool = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
         screenSize = UIScreen.mainScreen().bounds
+        if screenSize.width > screenSize.height {
+            portrait = false
+        }
+        else {
+            portrait = true
+        }
         createKeyboard()
         keyboardType = "UpperStart"
     }
@@ -42,15 +49,44 @@ class KeyboardViewController: UIInputViewController {
         self.nextKeyboardButton.setTitleColor(textColor, forState: .Normal)
     }
     
+    override func willRotateToInterfaceOrientation(toInterfaceOrientation: UIInterfaceOrientation, duration: NSTimeInterval) {
+        screenSize = UIScreen.mainScreen().bounds
+        if toInterfaceOrientation == UIInterfaceOrientation.Portrait {
+            portrait = true
+        }
+        else {
+            portrait = false
+        }
+        if keyboardType == "Upper" || keyboardType == "UpperLocked" || keyboardType == "UpperStart" {
+            loadKeysUpper()
+        }
+        else if keyboardType == "Lower" {
+            loadKeysLower()
+        }
+        else if keyboardType == "Numeric" {
+            loadKeysNumeric()
+        }
+        else {
+            loadKeysSpecial()
+        }
+    }
+    
     //MARK: Methods
     
     func loadKeysUpper() {
+        var heightOfRow: CGFloat = 0
+        if portrait == true {
+            heightOfRow = 55
+        }
+        else {
+            heightOfRow = 40
+        }
         emptySuperView()
         
         var keyTitles = ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"]
         var keys = createKeys(keyTitles)
         
-        var topRowKeyboard = UIView(frame: CGRect(x: 0, y: 0, width: screenSize.width, height: 55))
+        var topRowKeyboard = UIView(frame: CGRect(x: 0, y: 0, width: screenSize.width, height: heightOfRow))
         
         for key in keys {
             topRowKeyboard.addSubview(key)
@@ -63,7 +99,7 @@ class KeyboardViewController: UIInputViewController {
         keyTitles = ["A", "S", "D", "F", "G", "H", "J", "K", "L"]
         keys = createKeys(keyTitles)
         
-        var secondRowKeyboard = UIView(frame: CGRect(x: 0, y: 55, width: screenSize.width, height: 55))
+        var secondRowKeyboard = UIView(frame: CGRect(x: 0, y: heightOfRow, width: screenSize.width, height: heightOfRow))
         
         for key in keys {
             secondRowKeyboard.addSubview(key)
@@ -76,7 +112,7 @@ class KeyboardViewController: UIInputViewController {
         keyTitles = ["⇧","Z", "X", "C", "V", "B", "N", "M", "⌫"]
         keys = createKeys(keyTitles)
         
-        var thirdRowKeyboard = UIView(frame: CGRect(x: 0, y: 110, width: screenSize.width, height: 55))
+        var thirdRowKeyboard = UIView(frame: CGRect(x: 0, y: 2*heightOfRow, width: screenSize.width, height: heightOfRow))
         
         for key in keys {
             thirdRowKeyboard.addSubview(key)
@@ -89,7 +125,7 @@ class KeyboardViewController: UIInputViewController {
         keyTitles = ["123", "🌐", ":", "space", "return"]
         keys = createKeys(keyTitles)
     
-        var fourthRowKeyboard = UIView(frame: CGRect(x: 0, y: 165, width: screenSize.width, height: 55))
+        var fourthRowKeyboard = UIView(frame: CGRect(x: 0, y: 3*heightOfRow, width: screenSize.width, height: heightOfRow))
         
         for key in keys {
             fourthRowKeyboard.addSubview(key)
@@ -103,12 +139,21 @@ class KeyboardViewController: UIInputViewController {
     }
     
     func loadKeysLower() {
+        var heightOfRow: CGFloat = 0
+        if portrait == true {
+            heightOfRow = 55
+        }
+        else {
+            heightOfRow = 40
+        }
+
+        
         emptySuperView()
         
         var keyTitles = ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"]
         var keys = createKeys(keyTitles)
         
-        var topRowKeyboard = UIView(frame: CGRect(x: 0, y: 0, width: screenSize.width, height: 55))
+        var topRowKeyboard = UIView(frame: CGRect(x: 0, y: 0, width: screenSize.width, height: heightOfRow))
         
         for key in keys {
             topRowKeyboard.addSubview(key)
@@ -121,7 +166,7 @@ class KeyboardViewController: UIInputViewController {
         keyTitles = ["a", "s", "d", "f", "g", "h", "j", "k", "l"]
         keys = createKeys(keyTitles)
         
-        var secondRowKeyboard = UIView(frame: CGRect(x: 0, y: 55, width: screenSize.width, height: 55))
+        var secondRowKeyboard = UIView(frame: CGRect(x: 0, y: heightOfRow, width: screenSize.width, height: heightOfRow))
         
         for key in keys {
             secondRowKeyboard.addSubview(key)
@@ -134,7 +179,7 @@ class KeyboardViewController: UIInputViewController {
         keyTitles = ["⇧", "z", "x", "c", "v", "b", "n", "m", "⌫"]
         keys = createKeys(keyTitles)
         
-        var thirdRowKeyboard = UIView(frame: CGRect(x: 0, y: 110, width: screenSize.width, height: 55))
+        var thirdRowKeyboard = UIView(frame: CGRect(x: 0, y: 2*heightOfRow, width: screenSize.width, height: heightOfRow))
         
         for key in keys {
             thirdRowKeyboard.addSubview(key)
@@ -147,7 +192,7 @@ class KeyboardViewController: UIInputViewController {
         keyTitles = ["123", "🌐", ":", "space", "return"]
         keys = createKeys(keyTitles)
         
-        var fourthRowKeyboard = UIView(frame: CGRect(x: 0, y: 165, width: screenSize.width, height: 55))
+        var fourthRowKeyboard = UIView(frame: CGRect(x: 0, y: 3*heightOfRow, width: screenSize.width, height: heightOfRow))
         
         for key in keys {
             fourthRowKeyboard.addSubview(key)
@@ -161,12 +206,21 @@ class KeyboardViewController: UIInputViewController {
     }
 
     func loadKeysNumeric() {
+        var heightOfRow: CGFloat = 0
+        if portrait == true {
+            heightOfRow = 55
+        }
+        else {
+            heightOfRow = 40
+        }
+
+        
         emptySuperView()
         
         var keyTitles = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
         var keys = createKeys(keyTitles)
         
-        var topRowKeyboard = UIView(frame: CGRect(x: 0, y: 0, width: screenSize.width, height: 55))
+        var topRowKeyboard = UIView(frame: CGRect(x: 0, y: 0, width: screenSize.width, height: heightOfRow))
         
         for key in keys {
             topRowKeyboard.addSubview(key)
@@ -179,7 +233,7 @@ class KeyboardViewController: UIInputViewController {
         keyTitles = ["-", "/", ":", ";", "(", ")", "$", "&", "@", "\""]
         keys = createKeys(keyTitles)
         
-        var secondRowKeyboard = UIView(frame: CGRect(x: 0, y: 55, width: screenSize.width, height: 55))
+        var secondRowKeyboard = UIView(frame: CGRect(x: 0, y: heightOfRow, width: screenSize.width, height: heightOfRow))
         
         for key in keys {
             secondRowKeyboard.addSubview(key)
@@ -192,7 +246,7 @@ class KeyboardViewController: UIInputViewController {
         keyTitles = ["#+=", ".", ",", "?", "!", "'", "⌫"]
         keys = createKeys(keyTitles)
         
-        var thirdRowKeyboard = UIView(frame: CGRect(x: 0, y: 110, width: screenSize.width, height: 55))
+        var thirdRowKeyboard = UIView(frame: CGRect(x: 0, y: 2*heightOfRow, width: screenSize.width, height: heightOfRow))
         
         for key in keys {
             thirdRowKeyboard.addSubview(key)
@@ -205,7 +259,7 @@ class KeyboardViewController: UIInputViewController {
         keyTitles = ["ABC", "🌐", ":", "space", "return"]
         keys = createKeys(keyTitles)
         
-        var fourthRowKeyboard = UIView(frame: CGRect(x: 0, y: 165, width: screenSize.width, height: 55))
+        var fourthRowKeyboard = UIView(frame: CGRect(x: 0, y: 3*heightOfRow, width: screenSize.width, height: heightOfRow))
         
         for key in keys {
             fourthRowKeyboard.addSubview(key)
@@ -219,12 +273,20 @@ class KeyboardViewController: UIInputViewController {
     }
     
     func loadKeysSpecial() {
+        var heightOfRow: CGFloat = 0
+        if portrait == true {
+            heightOfRow = 55
+        }
+        else {
+            heightOfRow = 40
+        }
+
         emptySuperView()
         
         var keyTitles = ["[", "]", "{", "}", "#", "%", "^", "*", "+", "="]
         var keys = createKeys(keyTitles)
         
-        var topRowKeyboard = UIView(frame: CGRect(x: 0, y: 0, width: screenSize.width, height: 55))
+        var topRowKeyboard = UIView(frame: CGRect(x: 0, y: 0, width: screenSize.width, height: heightOfRow))
         
         for key in keys {
             topRowKeyboard.addSubview(key)
@@ -237,7 +299,7 @@ class KeyboardViewController: UIInputViewController {
         keyTitles = ["_", "\\", "|", "~", "<", ">", "€", "£", "¥", "·"]
         keys = createKeys(keyTitles)
         
-        var secondRowKeyboard = UIView(frame: CGRect(x: 0, y: 55, width: screenSize.width, height: 55))
+        var secondRowKeyboard = UIView(frame: CGRect(x: 0, y: heightOfRow, width: screenSize.width, height: heightOfRow))
         
         for key in keys {
             secondRowKeyboard.addSubview(key)
@@ -250,7 +312,7 @@ class KeyboardViewController: UIInputViewController {
         keyTitles = ["123", ".", ",", "?", "!", "'", "⌫"]
         keys = createKeys(keyTitles)
         
-        var thirdRowKeyboard = UIView(frame: CGRect(x: 0, y: 110, width: screenSize.width, height: 55))
+        var thirdRowKeyboard = UIView(frame: CGRect(x: 0, y: 2*heightOfRow, width: screenSize.width, height: heightOfRow))
         
         for key in keys {
             thirdRowKeyboard.addSubview(key)
@@ -263,7 +325,7 @@ class KeyboardViewController: UIInputViewController {
         keyTitles = ["ABC", "🌐", ":", "space", "return"]
         keys = createKeys(keyTitles)
         
-        var fourthRowKeyboard = UIView(frame: CGRect(x: 0, y: 165, width: screenSize.width, height: 55))
+        var fourthRowKeyboard = UIView(frame: CGRect(x: 0, y: 3*heightOfRow, width: screenSize.width, height: heightOfRow))
         
         for key in keys {
             fourthRowKeyboard.addSubview(key)
