@@ -27,8 +27,12 @@ class KeyboardViewController: UIInputViewController {
         else {
             portrait = true
         }
-        createKeyboard()
-        keyboardType = "UpperStart"
+        if (self.textDocumentProxy as UITextDocumentProxy).documentContextBeforeInput! != "" {
+            createKeyboard("lower")
+        } else {
+            createKeyboard("upper")
+            keyboardType = "UpperStart"
+        }
     }
     
     override func didReceiveMemoryWarning() {
@@ -58,7 +62,9 @@ class KeyboardViewController: UIInputViewController {
             portrait = false
         }
         if keyboardType == "Upper" || keyboardType == "UpperLocked" || keyboardType == "UpperStart" {
+            var temp = keyboardType
             loadKeysUpper()
+            keyboardType = temp
         }
         else if keyboardType == "Lower" {
             loadKeysLower()
@@ -74,6 +80,7 @@ class KeyboardViewController: UIInputViewController {
     //MARK: Methods
     
     func loadKeysUpper() {
+        
         var heightOfRow: CGFloat = 0
         if portrait == true {
             heightOfRow = 55
@@ -139,6 +146,8 @@ class KeyboardViewController: UIInputViewController {
     }
     
     func loadKeysLower() {
+        keyboardType = "Lower"
+        
         var heightOfRow: CGFloat = 0
         if portrait == true {
             heightOfRow = 55
@@ -202,10 +211,12 @@ class KeyboardViewController: UIInputViewController {
         
         addConstraintsRow3(keys, containingView: fourthRowKeyboard)
         
-        keyboardType = "Lower"
     }
 
     func loadKeysNumeric() {
+        
+        keyboardType = "Numeric"
+        
         var heightOfRow: CGFloat = 0
         if portrait == true {
             heightOfRow = 55
@@ -268,11 +279,11 @@ class KeyboardViewController: UIInputViewController {
         self.view.addSubview(fourthRowKeyboard)
         
         addConstraintsRow3(keys, containingView: fourthRowKeyboard)
-        
-        keyboardType = "Numeric"
     }
     
     func loadKeysSpecial() {
+        keyboardType = "Special"
+        
         var heightOfRow: CGFloat = 0
         if portrait == true {
             heightOfRow = 55
@@ -334,8 +345,7 @@ class KeyboardViewController: UIInputViewController {
         self.view.addSubview(fourthRowKeyboard)
         
         addConstraintsRow3(keys, containingView: fourthRowKeyboard)
-        
-        keyboardType = "Special"
+    
     }
     
     func createKeys(keyTitles: [String]) -> [UIButton] {
@@ -346,7 +356,12 @@ class KeyboardViewController: UIInputViewController {
             keyButton.setTitle(keyTitle, forState: UIControlState.Normal)
             if  keyTitle == "123" || keyTitle == "ABC" || keyTitle == "return" || keyTitle == "#+=" || keyTitle == "⌫" || keyTitle == "⇧" || keyTitle == "🌐"{
                 keyButton.titleLabel!.font = UIFont(name: "Arial", size: 15.0)
-                keyButton.backgroundColor = UIColor.lightGrayColor()
+                if keyboardType == "UpperLocked" && keyTitle == "⇧" {
+                    keyButton.backgroundColor = UIColor.darkGrayColor()
+                }
+                else {
+                    keyButton.backgroundColor = UIColor.lightGrayColor()
+                }
             }
             else if keyTitle == "space" {
                 keyButton.titleLabel!.font = UIFont(name: "Arial", size: 15.0)
@@ -358,6 +373,9 @@ class KeyboardViewController: UIInputViewController {
             }
             keyButton.translatesAutoresizingMaskIntoConstraints = false
             keyButton.setTitleColor(UIColor.darkGrayColor(), forState: UIControlState.Normal)
+            if keyButton.backgroundColor == UIColor.darkGrayColor() {
+                keyButton.setTitleColor(UIColor.lightGrayColor(), forState: .Normal)
+            }
             keyButton.addTarget(self, action: "keyPressed:", forControlEvents: UIControlEvents.TouchDown)
             if keyTitle == "⇧" {
                 keyButton.addTarget(self, action: "keyDoublePressed:", forControlEvents: UIControlEvents.TouchDownRepeat)
@@ -380,11 +398,9 @@ class KeyboardViewController: UIInputViewController {
     
     func keyDoublePressed(sender: AnyObject?) {
         let button = sender as! UIButton
+        keyboardType = "UpperLocked"
         loadKeysUpper()
         keyboardType = "UpperLocked"
-        button.backgroundColor = UIColor.darkGrayColor()
-        button.setTitle("hi", forState: UIControlState.Normal)
-        button.setTitleColor(UIColor.lightTextColor(), forState: UIControlState.Normal)
     }
     
     //Figure out word to replace when it comes to backspaces and keyboard changes
@@ -480,9 +496,14 @@ class KeyboardViewController: UIInputViewController {
         
     }
     
-    func createKeyboard() {
+    func createKeyboard(type: String) {
         addNextKeyBoardButton()
-        loadKeysUpper()
+        if type == "upper" {
+            loadKeysUpper()
+        }
+        else {
+            loadKeysLower()
+        }
         getResource()
     }
     
