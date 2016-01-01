@@ -17,3 +17,6 @@ Here's a live demo: (Please excuse the horrible quality of the gif)
 Note: since this is fuzzy in the above gif, the keyword must be typed between two colons, and the keyboard will then replace the word with the emoji. The second colon cannot be disregarded. It was entered in the demo as well however the horrible gif quality did not accurately show that. 
 
 You're welcome to contribute to the emoji plist file. Just clone the repository, add to the plist file and file a merge request. Your entries are much appreciated!
+
+Privacy: 
+This app does NOT store any data using the keyboard extension. Only specied keywords are collected, replaced and disposed of as the user uses the keyboard. 
