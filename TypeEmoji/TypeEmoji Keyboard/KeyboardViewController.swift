@@ -409,13 +409,20 @@ class KeyboardViewController: UIInputViewController {
         let title = button.titleForState(UIControlState.Normal)
         
         //Change animation
-        UIView.animateWithDuration(0.2, animations: {
+        UIView.animateWithDuration(0.15, animations: {
             button.transform = CGAffineTransformScale(CGAffineTransformIdentity, 2.0, 2.0)
             }, completion: {(_) -> Void in
                 button.transform =
                     CGAffineTransformScale(CGAffineTransformIdentity, 1, 1)
         })
         
+//        UIView.animateWithDuration(0.2, animations: {
+//            button.transform = CGAffineTransformMakeTranslation(0, -10)
+//            }, completion: {(_) -> Void in
+//                button.transform =
+//                    CGAffineTransformMakeTranslation(0, 0)
+//        })
+//        
         switch title {
         case "123"?:
             loadKeysNumeric()

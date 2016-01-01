@@ -4,39 +4,73 @@
 <dict>
 	<key>smiley</key>
 	<string>😃</string>
+	<key>glad</key>
+	<string>😃</string>
 	<key>blush</key>
+	<string>😊</string>
+	<key>happy</key>
 	<string>😊</string>
 	<key>grinning</key>
 	<string>😀</string>
 	<key>smile</key>
 	<string>😄</string>
+	<key>funny</key>
+	<string>😄</string>
 	<key>smitten</key>
+	<string>☺️</string>
+	<key>happiness</key>
 	<string>☺️</string>
 	<key>wink</key>
 	<string>😉</string>
+	<key>secret</key>
+	<string>😉</string>
+	<key>mischievious</key>
+	<string>😉</string>
 	<key>heart_eyes</key>
 	<string>😍</string>
+	<key>heart eyes</key>
+	<string>😍</string>
 	<key>blowing_kiss</key>
+	<string>😘</string>
+	<key>blowing kiss</key>
+	<string>😘</string>
+	<key>kiss</key>
 	<string>😘</string>
 	<key>kissing</key>
 	<string>😚</string>
 	<key>kissing_face_open_eyes</key>
 	<string>😗</string>
+	<key>kissing face open eyes</key>
+	<string>😗</string>
 	<key>kissing_face</key>
+	<string>😙</string>
+	<key>kissing face</key>
 	<string>😙</string>
 	<key>stuck_out_tongue_wink</key>
 	<string>😜</string>
+	<key>stuck out tongue wink</key>
+	<string>😜</string>
+	<key>stuck out tongue eyes closed</key>
+	<string>😝</string>
 	<key>stuck_out_tongue_eyes_closed</key>
 	<string>😝</string>
 	<key>stuck_out_tongue</key>
 	<string>😛</string>
+	<key>stuck out tongue</key>
+	<string>😛</string>
 	<key>flushed</key>
+	<string>😳</string>
+	<key>embarassed</key>
+	<string>😳</string>
+	<key>crushing</key>
 	<string>😳</string>
 	<key>grin</key>
 	<string>😁</string>
 	<key>pensive</key>
 	<string>😔</string>
 	<key>relieved</key>
+	<string>😌</string>
+	<key>satisfied</key>
 	<string>😌</string>
 	<key>unamused</key>
 	<string>😒</string>
@@ -48,15 +82,31 @@
 	<string>😢</string>
 	<key>tears_of_joy</key>
 	<string>😂</string>
+	<key>tears of joy</key>
+	<string>😂</string>
+	<key>joy</key>
+	<string>😂</string>
+	<key>lol</key>
+	<string>😂</string>
+	<key>lmfao</key>
+	<string>😂</string>
+	<key>hahaha</key>
+	<string>😂</string>
 	<key>sob</key>
 	<string>😭</string>
 	<key>sleepy</key>
 	<string>😪</string>
 	<key>disappointed_but_relieved</key>
 	<string>😥</string>
+	<key>disappointed but relieved</key>
+	<string>😥</string>
 	<key>cold_sweat</key>
 	<string>😰</string>
+	<key>cold sweat</key>
+	<string>😰</string>
 	<key>sweat_smile</key>
+	<string>😅</string>
+	<key>sweat smile</key>
 	<string>😅</string>
 	<key>sweat</key>
 	<string>😓</string>
@@ -78,7 +128,11 @@
 	<string>😖</string>
 	<key>laughing</key>
 	<string>😆</string>
+	<key>laugh</key>
+	<string>😆</string>
 	<key>yum</key>
+	<string>😋 😋</string>
+	<key>silly</key>
 	<string>😋 😋</string>
 	<key>mask</key>
 	<string>😷</string>
@@ -88,7 +142,11 @@
 	<string>😴</string>
 	<key>dizzy_face</key>
 	<string>😵</string>
+	<key>dizzy face</key>
+	<string>😵</string>
 	<key>astonished</key>
+	<string>😲</string>
+	<key>shocked</key>
 	<string>😲</string>
 	<key>worry</key>
 	<string>😟</string>
@@ -98,9 +156,23 @@
 	<string>😧</string>
 	<key>smiling_imp</key>
 	<string>😈</string>
+	<key>naughty</key>
+	<string>😈</string>
+	<key>smiling imp</key>
+	<string>😈</string>
+	<key>smiling devil</key>
+	<string>😈</string>
 	<key>imp</key>
 	<string>👿</string>
+	<key>devil</key>
+	<string>👿</string>
+	<key>horns</key>
+	<string>👿</string>
 	<key>open_mouth</key>
+	<string>😮</string>
+	<key>open mouth</key>
+	<string>😮</string>
+	<key>mouth open</key>
 	<string>😮</string>
 	<key>grimace</key>
 	<string>😬</string>
@@ -112,46 +184,92 @@
 	<string>😯</string>
 	<key>no_mouth</key>
 	<string>😶</string>
+	<key>no mouth</key>
+	<string>😶</string>
 	<key>innocent</key>
+	<string>😇</string>
+	<key>halo</key>
 	<string>😇</string>
 	<key>smirk</key>
 	<string>😏</string>
 	<key>expressionless</key>
 	<string>😑</string>
+	<key>no expression</key>
+	<string>😑</string>
 	<key>slight_smile</key>
-	<string></string>
+	<string>🙂</string>
+	<key>slight smile</key>
+	<string>🙂</string>
 	<key>hugging</key>
-	<string></string>
+	<string>🤗</string>
+	<key>jazz hands</key>
+	<string>🤗</string>
 	<key>thinking</key>
-	<string></string>
+	<string>🤔</string>
 	<key>eyes_rolling</key>
-	<string></string>
+	<string>🙄</string>
+	<key>eyes rolling</key>
+	<string>🙄</string>
+	<key>rolling eyes</key>
+	<string>🙄</string>
 	<key>zippered_mouth</key>
-	<string></string>
+	<string>🤐</string>
+	<key>zippered mouth</key>
+	<string>🤐</string>
+	<key>sealed_lips</key>
+	<string>🤐</string>
+	<key>sealed lips</key>
+	<string>🤐</string>
+	<key>lips sealed</key>
+	<string>🤐</string>
 	<key>sad</key>
-	<string></string>
+	<string>☹️</string>
 	<key>nerd</key>
-	<string></string>
+	<string>🤓</string>
 	<key>slight_frown</key>
-	<string></string>
+	<string>🙁</string>
+	<key>slight frown</key>
+	<string>🙁</string>
 	<key>upside_down</key>
-	<string></string>
+	<string>🙃</string>
+	<key>upside down</key>
+	<string>🙃</string>
 	<key>injured</key>
-	<string></string>
+	<string>🤕</string>
+	<key>hurt</key>
+	<string>🤕</string>
 	<key>sick</key>
-	<string></string>
+	<string>🤒</string>
 	<key>money_face</key>
-	<string></string>
+	<string>🤑</string>
+	<key>money face</key>
+	<string>🤑</string>
+	<key>greedy</key>
+	<string>🤑</string>
 	<key>man_with_gua_pi_mao</key>
+	<string>👲</string>
+	<key>man with gua pi mao</key>
+	<string>👲</string>
+	<key>gua pi mao</key>
 	<string>👲</string>
 	<key>man_with_turban</key>
 	<string>👳</string>
+	<key>man with turban</key>
+	<string>👳</string>
+	<key>turban</key>
+	<string>👳</string>
 	<key>police_officer</key>
+	<string>👮</string>
+	<key>police officer</key>
+	<string>👮</string>
+	<key>cop</key>
 	<string>👮</string>
 	<key>construction_worker</key>
 	<string>👷</string>
-	<key>spy</key>
-	<string></string>
+	<key>construction worker</key>
+	<string>👷</string>
+	<key>detective</key>
+	<string>🕵</string>
 	<key>guard</key>
 	<string>💂</string>
 	<key>baby</key>
@@ -162,11 +280,17 @@
 	<string>👧</string>
 	<key>woman</key>
 	<string>👩</string>
-	<key>person_m</key>
+	<key>lady</key>
+	<string>👩</string>
+	<key>male</key>
 	<string>👱</string>
 	<key>older_man</key>
 	<string>👴</string>
+	<key>old man</key>
+	<string>👴</string>
 	<key>older_woman</key>
+	<string>👵</string>
+	<key>old woman</key>
 	<string>👵</string>
 	<key>man</key>
 	<string>👨</string>
@@ -174,49 +298,103 @@
 	<string>👼</string>
 	<key>princess</key>
 	<string>👸</string>
+	<key>queen</key>
+	<string>👸</string>
 	<key>smile_cat_open_eyes</key>
+	<string>😺</string>
+	<key>smile cat open eyes</key>
 	<string>😺</string>
 	<key>smile_cat</key>
 	<string>😸</string>
+	<key>smile cat</key>
+	<string>😸</string>
 	<key>heart_eyes_cat</key>
+	<string>😻</string>
+	<key>heart eyes cat</key>
 	<string>😻</string>
 	<key>kissing_cat</key>
 	<string>😽</string>
+	<key>kissing cat</key>
+	<string>😽</string>
 	<key>smirk_cat</key>
+	<string>😼</string>
+	<key>smirk cat</key>
 	<string>😼</string>
 	<key>scream_cat</key>
 	<string>🙀</string>
+	<key>scream cat</key>
+	<string>🙀</string>
 	<key>crying_cat</key>
+	<string>😿</string>
+	<key>crying cat</key>
 	<string>😿</string>
 	<key>tears_of_joy_cat</key>
 	<string>😹</string>
+	<key>tears of joy cat</key>
+	<string>😹</string>
+	<key>lol_cat</key>
+	<string>😹</string>
 	<key>pouting_cat</key>
+	<string>😾</string>
+	<key>pouting cat</key>
 	<string>😾</string>
 	<key>japanese_ogre</key>
 	<string>👹</string>
+	<key>japanese ogre</key>
+	<string>👹</string>
+	<key>ogre</key>
+	<string>👹</string>
 	<key>japanese_goblin</key>
+	<string>👺</string>
+	<key>japanese goblin</key>
+	<string>👺</string>
+	<key>monster</key>
 	<string>👺</string>
 	<key>hear_no_evil</key>
 	<string>🙉</string>
+	<key>hear no evil</key>
+	<string>🙉</string>
 	<key>see_no_evil</key>
 	<string>🙈</string>
+	<key>see no evil</key>
+	<string>🙈</string>
 	<key>speak_no_evil</key>
+	<string>🙊</string>
+	<key>speak no evil</key>
 	<string>🙊</string>
 	<key>skull</key>
 	<string>💀</string>
 	<key>skull_and_bones</key>
-	<string></string>
+	<string>☠️</string>
+	<key>skull and bones</key>
+	<string>☠️</string>
+	<key>skull and crossbones</key>
+	<string>☠️</string>
 	<key>alien</key>
 	<string>👽</string>
+	<key>alien head</key>
+	<string>👽</string>
 	<key>robot</key>
-	<string></string>
+	<string>🤖</string>
 	<key>poop</key>
+	<string>💩</string>
+	<key>shit</key>
 	<string>💩</string>
 	<key>fire</key>
 	<string>🔥</string>
+	<key>hot</key>
+	<string>🔥</string>
+	<key>flame</key>
+	<string>🔥</string>
 	<key>sparkles</key>
 	<string>✨</string>
+	<key>glitter</key>
+	<string>✨</string>
+	<key>shimmer</key>
+	<string>✨</string>
 	<key>glowing_star</key>
+	<string>🌟</string>
+	<key>glowing star</key>
 	<string>🌟</string>
 	<key>dizzy</key>
 	<string>💫</string>
@@ -226,18 +404,26 @@
 	<string>💢</string>
 	<key>sweat_droplets</key>
 	<string>💦</string>
+	<key>sweat droplets</key>
+	<string>💦</string>
+	<key>water</key>
+	<string>💦</string>
 	<key>droplet</key>
+	<string>💧</string>
+	<key>drop</key>
 	<string>💧</string>
 	<key>zzz</key>
 	<string>💤</string>
 	<key>dash</key>
+	<string>💨</string>
+	<key>go</key>
 	<string>💨</string>
 	<key>ear</key>
 	<string>👂</string>
 	<key>eyes</key>
 	<string>👀</string>
 	<key>eye</key>
-	<string></string>
+	<string>👁</string>
 	<key>nose</key>
 	<string>👃</string>
 	<key>tongue</key>
@@ -246,9 +432,19 @@
 	<string>👄</string>
 	<key>thumbs_up</key>
 	<string>👍</string>
+	<key>thumbs up</key>
+	<string>👍</string>
 	<key>thumbs_down</key>
 	<string>👎</string>
+	<key>thumbs down</key>
+	<string>👎</string>
 	<key>ok_hand</key>
+	<string>👌</string>
+	<key>ok hand</key>
+	<string>👌</string>
+	<key>okay</key>
+	<string>👌</string>
+	<key>nice</key>
 	<string>👌</string>
 	<key>punch</key>
 	<string>👊</string>
@@ -256,69 +452,135 @@
 	<string>✊</string>
 	<key>v</key>
 	<string>✌️</string>
+	<key>peace</key>
+	<string>✌️</string>
 	<key>wave</key>
+	<string>👋</string>
+	<key>bye</key>
+	<string>👋</string>
+	<key>hi</key>
 	<string>👋</string>
 	<key>hand</key>
 	<string>✋</string>
 	<key>open_hands</key>
 	<string>👐</string>
+	<key>open hands</key>
+	<string>👐</string>
 	<key>point_up_2</key>
+	<string>👆</string>
+	<key>point up 2</key>
 	<string>👆</string>
 	<key>point_down</key>
 	<string>👇</string>
+	<key>point down</key>
+	<string>👇</string>
 	<key>point_right</key>
+	<string>👉</string>
+	<key>point right</key>
 	<string>👉</string>
 	<key>point_left</key>
 	<string>👈</string>
+	<key>point left</key>
+	<string>👈</string>
 	<key>raised_hands</key>
+	<string>🙌</string>
+	<key>raised hands</key>
 	<string>🙌</string>
 	<key>pray</key>
 	<string>🙏</string>
+	<key>thank god</key>
+	<string>🙏</string>
 	<key>point_up</key>
+	<string>☝️</string>
+	<key>point up</key>
 	<string>☝️</string>
 	<key>clap</key>
 	<string>👏</string>
 	<key>muscle</key>
 	<string>💪</string>
+	<key>strong</key>
+	<string>💪</string>
 	<key>middle_finger</key>
-	<string></string>
+	<string>🖕</string>
+	<key>middle finger</key>
+	<string>🖕</string>
 	<key>spock</key>
-	<string></string>
+	<string>🖖</string>
 	<key>rock_and_roll</key>
-	<string></string>
+	<string>🤘</string>
+	<key>rock and roll</key>
+	<string>🤘</string>
 	<key>writing_hand</key>
-	<string></string>
-	<key>skin</key>
-	<string></string>
+	<string>✍️</string>
+	<key>writing hand</key>
+	<string>✍️</string>
+	<key>writing</key>
+	<string>✍️</string>
 	<key>walking</key>
 	<string>🚶</string>
 	<key>running</key>
 	<string>🏃</string>
 	<key>dancer</key>
 	<string>💃</string>
+	<key>dancing</key>
+	<string>💃</string>
 	<key>man_and_woman_holding_hands</key>
+	<string>👫</string>
+	<key>man and woman holding hands</key>
+	<string>👫</string>
+	<key>straight_couple</key>
+	<string>👫</string>
+	<key>straight couple</key>
 	<string>👫</string>
 	<key>family</key>
 	<string>👪</string>
+	<key>straight parents family</key>
+	<string>👪</string>
 	<key>men_holding_hands</key>
+	<string>👬</string>
+	<key>men holding hands</key>
+	<string>👬</string>
+	<key>gay couple</key>
 	<string>👬</string>
 	<key>women_holding_hands</key>
 	<string>👭</string>
+	<key>women holding hands</key>
+	<string>👭</string>
+	<key>lesbian couple</key>
+	<string>👭</string>
 	<key>couple_kiss</key>
+	<string>💏</string>
+	<key>straight couple kiss</key>
 	<string>💏</string>
 	<key>couple</key>
 	<string>💑</string>
 	<key>dancers_with_bunny_ears</key>
 	<string>👯</string>
+	<key>dancers with bunny ears</key>
+	<string>👯</string>
+	<key>dancers</key>
+	<string>👯</string>
 	<key>information_person</key>
+	<string>💁</string>
+	<key>information person</key>
+	<string>💁</string>
+	<key>sass</key>
 	<string>💁</string>
 	<key>raising_hand</key>
 	<string>🙋</string>
+	<key>raising hand</key>
+	<string>🙋</string>
 	<key>ok_woman</key>
+	<string>🙆</string>
+	<key>ok woman</key>
 	<string>🙆</string>
 	<key>no_good</key>
 	<string>🙅</string>
+	<key>no good</key>
+	<string>🙅</string>
 	<key>massage</key>
+	<string>💆</string>
+	<key>headache</key>
 	<string>💆</string>
 	<key>haircut</key>
 	<string>💇</string>
@@ -328,19 +590,39 @@
 	<string>👰</string>
 	<key>person_pouting</key>
 	<string>🙎</string>
+	<key>person pouting</key>
+	<string>🙎</string>
 	<key>person_frowning</key>
+	<string>🙍</string>
+	<key>person frowning</key>
 	<string>🙍</string>
 	<key>person_bowing</key>
 	<string>🙇</string>
+	<key>person bowing</key>
+	<string>🙇</string>
+	<key>bowing</key>
+	<string>🙇</string>
 	<key>top_hat</key>
+	<string>🎩</string>
+	<key>top hat</key>
 	<string>🎩</string>
 	<key>crown</key>
 	<string>👑</string>
+	<key>tiara</key>
+	<string>👑</string>
 	<key>hat</key>
 	<string>👒</string>
+	<key>sunhat</key>
+	<string>👒</string>
 	<key>prayer_beads</key>
-	<string></string>
+	<string>📿</string>
+	<key>prayer beads</key>
+	<string>📿</string>
+	<key>rosary</key>
+	<string>📿</string>
 	<key>running_shoe</key>
+	<string>👟</string>
+	<key>running shoe</key>
 	<string>👟</string>
 	<key>shoe</key>
 	<string>👞</string>
@@ -348,11 +630,17 @@
 	<string>👡</string>
 	<key>high_heeled_shoe</key>
 	<string>👠</string>
+	<key>high heeled shoe</key>
+	<string>👠</string>
+	<key>heel</key>
+	<string>👠</string>
 	<key>boot</key>
 	<string>👢</string>
 	<key>tshirt</key>
 	<string>👕</string>
 	<key>dress_shirt</key>
+	<string>👔</string>
+	<key>dress shirt</key>
 	<string>👔</string>
 	<key>blouse</key>
 	<string>👚</string>
@@ -360,11 +648,17 @@
 	<string>👗</string>
 	<key>shirt_with_sash</key>
 	<string>🎽</string>
+	<key>shirt with sash</key>
+	<string>🎽</string>
 	<key>jeans</key>
+	<string>👖</string>
+	<key>pants</key>
 	<string>👖</string>
 	<key>kimono</key>
 	<string>👘</string>
 	<key>bikini</key>
+	<string>👙</string>
+	<key>swimsuit</key>
 	<string>👙</string>
 	<key>briefcase</key>
 	<string>💼</string>
@@ -375,125 +669,251 @@
 	<key>purse</key>
 	<string>👛</string>
 	<key>shopping_bags</key>
-	<string></string>
+	<string>🛍</string>
+	<key>shopping bags</key>
+	<string>🛍</string>
 	<key>glasses</key>
+	<string>👓</string>
+	<key>reading glasses</key>
 	<string>👓</string>
 	<key>ribbon</key>
 	<string>🎀</string>
+	<key>bow</key>
+	<string>🎀</string>
 	<key>closed_umbrella</key>
+	<string>🌂</string>
+	<key>closed umbrella</key>
 	<string>🌂</string>
 	<key>lipstick</key>
 	<string>💄</string>
 	<key>yellow_heart</key>
 	<string>💛</string>
+	<key>yellow heart</key>
+	<string>💛</string>
 	<key>blue_heart</key>
+	<string>💙</string>
+	<key>blue heart</key>
 	<string>💙</string>
 	<key>purple_heart</key>
 	<string>💜</string>
+	<key>purple heart</key>
+	<string>💜</string>
 	<key>green_heart</key>
+	<string>💚</string>
+	<key>green heart</key>
 	<string>💚</string>
 	<key>heart</key>
 	<string>❤️</string>
+	<key>red heart</key>
+	<string>❤️</string>
 	<key>broken_heart</key>
+	<string>💔</string>
+	<key>broken heart</key>
 	<string>💔</string>
 	<key>growing_heart</key>
 	<string>💗</string>
+	<key>growing heart</key>
+	<string>💗</string>
 	<key>beating_heart</key>
+	<string>💓</string>
+	<key>beating heart</key>
 	<string>💓</string>
 	<key>two_hearts</key>
 	<string>💕</string>
+	<key>two hearts</key>
+	<string>💕</string>
 	<key>sparkling_heart</key>
+	<string>💖</string>
+	<key>sparkling heart</key>
 	<string>💖</string>
 	<key>revolving_hearts</key>
 	<string>💞</string>
+	<key>revolving hearts</key>
+	<string>💞</string>
 	<key>heart_with_arrow</key>
 	<string>💘</string>
+	<key>heart with arrow</key>
+	<string>💘</string>
 	<key>heart_exclaimation_mark</key>
-	<string></string>
+	<string>❣️</string>
+	<key>heart exclaimation mark</key>
+	<string>❣️</string>
 	<key>love_letter</key>
 	<string>💌</string>
+	<key>love letter</key>
+	<string>💌</string>
 	<key>kiss_mark</key>
+	<string>💋</string>
+	<key>kiss mark</key>
 	<string>💋</string>
 	<key>ring</key>
 	<string>💍</string>
 	<key>gem</key>
 	<string>💎</string>
+	<key>diamond</key>
+	<string>💎</string>
 	<key>bust</key>
+	<string>👤</string>
+	<key>head</key>
 	<string>👤</string>
 	<key>two_busts</key>
 	<string>👥</string>
+	<key>two busts</key>
+	<string>👥</string>
+	<key>two heads</key>
+	<string>👥</string>
 	<key>speaking_bust</key>
-	<string></string>
+	<string>🗣</string>
+	<key>speaking head</key>
+	<string>🗣</string>
+	<key>speaking bust</key>
+	<string>🗣</string>
 	<key>speech_balloon</key>
+	<string>💬</string>
+	<key>speech balloon</key>
+	<string>💬</string>
+	<key>speaking</key>
 	<string>💬</string>
 	<key>footprints</key>
 	<string>👣</string>
 	<key>thought_balloon</key>
 	<string>💭</string>
+	<key>thought balloon</key>
+	<string>💭</string>
+	<key>think</key>
+	<string>💭</string>
 	<key>hole</key>
-	<string></string>
+	<string>🕳</string>
 	<key>anger_balloon</key>
-	<string></string>
+	<string>🗯</string>
+	<key>anger balloon</key>
+	<string>🗯</string>
+	<key>yelling</key>
+	<string>🗯</string>
 	<key>dog_face</key>
+	<string>🐶</string>
+	<key>dog face</key>
 	<string>🐶</string>
 	<key>wolf_face</key>
 	<string>🐺</string>
+	<key>wolf face</key>
+	<string>🐺</string>
+	<key>wolf</key>
+	<string>🐺</string>
 	<key>cat_face</key>
+	<string>🐱</string>
+	<key>cat face</key>
 	<string>🐱</string>
 	<key>mouse_face</key>
 	<string>🐭</string>
+	<key>mouse face</key>
+	<string>🐭</string>
 	<key>hamster_face</key>
+	<string>🐹</string>
+	<key>hamster face</key>
+	<string>🐹</string>
+	<key>hamster</key>
 	<string>🐹</string>
 	<key>rabbit_face</key>
 	<string>🐰</string>
+	<key>rabbit face</key>
+	<string>🐰</string>
+	<key>bunny</key>
+	<string>🐰</string>
 	<key>frog_face</key>
 	<string>🐸</string>
+	<key>frog face</key>
+	<string>🐸</string>
+	<key>frog</key>
+	<string>🐸</string>
 	<key>tiger_face</key>
+	<string>🐯</string>
+	<key>tiger face</key>
 	<string>🐯</string>
 	<key>koala</key>
 	<string>🐨</string>
 	<key>bear_face</key>
 	<string>🐻</string>
+	<key>bear face</key>
+	<string>🐻</string>
 	<key>pig_face</key>
+	<string>🐷</string>
+	<key>pig face</key>
 	<string>🐷</string>
 	<key>pig_nose</key>
 	<string>🐽</string>
+	<key>pig nose</key>
+	<string>🐽</string>
+	<key>snout</key>
+	<string>🐽</string>
 	<key>cow_face</key>
+	<string>🐮</string>
+	<key>cow face</key>
 	<string>🐮</string>
 	<key>boar</key>
 	<string>🐗</string>
 	<key>monkey_face</key>
 	<string>🐵</string>
+	<key>monkey face</key>
+	<string>🐵</string>
 	<key>monkey</key>
 	<string>🐒</string>
 	<key>horse_face</key>
 	<string>🐴</string>
+	<key>horse face</key>
+	<string>🐴</string>
 	<key>unicorn</key>
-	<string></string>
+	<string>🦄</string>
 	<key>chipmunk</key>
-	<string></string>
+	<string>🐿</string>
+	<key>squirrel</key>
+	<string>🐿</string>
 	<key>sheep</key>
 	<string>🐑</string>
 	<key>elephant</key>
 	<string>🐘</string>
 	<key>panda_face</key>
 	<string>🐼</string>
+	<key>panda face</key>
+	<string>🐼</string>
+	<key>panda</key>
+	<string>🐼</string>
 	<key>penguin_face</key>
+	<string>🐧</string>
+	<key>penguin face</key>
+	<string>🐧</string>
+	<key>penguin</key>
 	<string>🐧</string>
 	<key>bird_face</key>
 	<string>🐦</string>
+	<key>bird face</key>
+	<string>🐦</string>
+	<key>bird</key>
+	<string>🐦</string>
 	<key>baby_chick_face</key>
+	<string>🐤</string>
+	<key>baby chick face</key>
+	<string>🐤</string>
+	<key>chick</key>
 	<string>🐤</string>
 	<key>baby_chick</key>
 	<string>🐥</string>
+	<key>baby chick</key>
+	<string>🐥</string>
 	<key>hatching_chick</key>
+	<string>🐣</string>
+	<key>hatching chick</key>
 	<string>🐣</string>
 	<key>chicken_face</key>
 	<string>🐔</string>
+	<key>chicken face</key>
+	<string>🐔</string>
+	<key>chicken</key>
+	<string>🐔</string>
 	<key>turkey</key>
-	<string></string>
+	<string>🦃</string>
 	<key>dove</key>
-	<string></string>
+	<string>🕊</string>
 	<key>snake</key>
 	<string>🐍</string>
 	<key>turtle</key>
@@ -514,22 +934,30 @@
 	<string>🐚</string>
 	<key>tropical_fish</key>
 	<string>🐠</string>
+	<key>tropical fish</key>
+	<string>🐠</string>
 	<key>fish</key>
 	<string>🐟</string>
 	<key>dolphin</key>
 	<string>🐬</string>
 	<key>spouting_whale</key>
 	<string>🐳</string>
+	<key>spouting whale</key>
+	<string>🐳</string>
 	<key>whale</key>
 	<string>🐋</string>
 	<key>crab</key>
-	<string></string>
+	<string>🦀</string>
 	<key>spider_web</key>
-	<string></string>
+	<string>🕸</string>
+	<key>spider web</key>
+	<string>🕸</string>
+	<key>web</key>
+	<string>🕸</string>
 	<key>spider</key>
-	<string></string>
+	<string>🕷</string>
 	<key>scorpion</key>
-	<string></string>
+	<string>🦂</string>
 	<key>cow</key>
 	<string>🐄</string>
 	<key>ram</key>
@@ -537,6 +965,8 @@
 	<key>rat</key>
 	<string>🐀</string>
 	<key>water_buffalo</key>
+	<string>🐃</string>
+	<key>water buffalo</key>
 	<string>🐃</string>
 	<key>tiger</key>
 	<string>🐅</string>
@@ -560,13 +990,21 @@
 	<string>🐂</string>
 	<key>dragon_face</key>
 	<string>🐲</string>
+	<key>dragon face</key>
+	<string>🐲</string>
 	<key>blowfish</key>
 	<string>🐡</string>
 	<key>crocodile</key>
 	<string>🐊</string>
 	<key>camel_two_humps</key>
 	<string>🐫</string>
+	<key>camel 2 humps</key>
+	<string>🐫</string>
+	<key>camel</key>
+	<string>🐫</string>
 	<key>camel_one_hump</key>
+	<string>🐪</string>
+	<key>camel 1 hump</key>
 	<string>🐪</string>
 	<key>leopard</key>
 	<string>🐆</string>
@@ -576,13 +1014,21 @@
 	<string>🐩</string>
 	<key>paw_prints</key>
 	<string>🐾</string>
+	<key>paw prints</key>
+	<string>🐾</string>
 	<key>bouquet</key>
 	<string>💐</string>
 	<key>cherry_blossom</key>
 	<string>🌸</string>
+	<key>cherry blossom</key>
+	<string>🌸</string>
+	<key>flower</key>
+	<string>🌸</string>
 	<key>tulip</key>
 	<string>🌷</string>
 	<key>four_leaf_clover</key>
+	<string>🍀</string>
+	<key>four leaf clover</key>
 	<string>🍀</string>
 	<key>rose</key>
 	<string>🌹</string>
@@ -591,26 +1037,46 @@
 	<key>hibiscus</key>
 	<string>🌺</string>
 	<key>rosette</key>
-	<string></string>
+	<string>🏵</string>
 	<key>maple_leaf</key>
+	<string>🍁</string>
+	<key>maple leaf</key>
 	<string>🍁</string>
 	<key>leaves_in_wind</key>
 	<string>🍃</string>
+	<key>leaves in wind</key>
+	<string>🍃</string>
+	<key>leaves</key>
+	<string>🍃</string>
 	<key>fallen_leaves</key>
+	<string>🍂</string>
+	<key>fall</key>
 	<string>🍂</string>
 	<key>herb</key>
 	<string>🌿</string>
 	<key>rice_grain</key>
 	<string>🌾</string>
+	<key>ear of rice</key>
+	<string>🌾</string>
 	<key>mushroom</key>
 	<string>🍄</string>
 	<key>pine_decoration</key>
 	<string>🎍</string>
+	<key>pine decoration</key>
+	<string>🎍</string>
 	<key>palm_tree</key>
+	<string>🌴</string>
+	<key>palm tree</key>
 	<string>🌴</string>
 	<key>evergreen_tree</key>
 	<string>🌲</string>
+	<key>evergreen tree</key>
+	<string>🌲</string>
 	<key>decidious_tree</key>
+	<string>🌳</string>
+	<key>decidious tree</key>
+	<string>🌳</string>
+	<key>tree</key>
 	<string>🌳</string>
 	<key>chesnut</key>
 	<string>🌰</string>
@@ -618,94 +1084,166 @@
 	<string>🌱</string>
 	<key>flower_blossom</key>
 	<string>🌼</string>
-	<key>globe_with_meridians</key>
+	<key>flower blossom</key>
+	<string>🌼</string>
+	<key>globe</key>
 	<string>🌐</string>
 	<key>sun_face</key>
 	<string>🌞</string>
+	<key>sun face</key>
+	<string>🌞</string>
 	<key>full_moon_face</key>
+	<string>🌝</string>
+	<key>full moon face</key>
 	<string>🌝</string>
 	<key>new_moon_face</key>
 	<string>🌚</string>
+	<key>new moon face</key>
+	<string>🌚</string>
+	<key>moon face</key>
+	<string>🌚</string>
 	<key>new_moon</key>
+	<string>🌑</string>
+	<key>new moon</key>
 	<string>🌑</string>
 	<key>waxing_crescent_moon</key>
 	<string>🌒</string>
+	<key>waxing crescent moon</key>
+	<string>🌒</string>
 	<key>first_quarter_moon</key>
+	<string>🌓</string>
+	<key>first quarter moon</key>
 	<string>🌓</string>
 	<key>waxing_gibbous_moon</key>
 	<string>🌔</string>
+	<key>waxing gibbous moon</key>
+	<string>🌔</string>
 	<key>full_moon</key>
+	<string>🌕</string>
+	<key>full moon</key>
 	<string>🌕</string>
 	<key>waning_gibbous_moon</key>
 	<string>🌖</string>
+	<key>waning gibbous moon</key>
+	<string>🌖</string>
 	<key>last_quarter_moon</key>
+	<string>🌗</string>
+	<key>last quarter moon</key>
 	<string>🌗</string>
 	<key>waning_crescent_moon</key>
 	<string>🌘</string>
+	<key>waning crescent moon</key>
+	<string>🌘</string>
 	<key>last_quarter_moon_face</key>
+	<string>🌜</string>
+	<key>last quarter moon face</key>
 	<string>🌜</string>
 	<key>first_quarter_moon_face</key>
 	<string>🌛</string>
+	<key>first quarter moon face</key>
+	<string>🌛</string>
 	<key>crescent_moon</key>
 	<string>🌙</string>
+	<key>crescent moon</key>
+	<string>🌙</string>
+	<key>moon</key>
+	<string>🌙</string>
 	<key>thermometer</key>
-	<string></string>
+	<string>🌡</string>
 	<key>thunder_lightning</key>
-	<string></string>
+	<string>⛈</string>
+	<key>thunder lightning</key>
+	<string>⛈</string>
+	<key>storm</key>
+	<string>⛈</string>
 	<key>sun_with_small_cloud</key>
-	<string></string>
+	<string>🌤</string>
+	<key>sun with small cloud</key>
+	<string>🌤</string>
 	<key>sun_with_cloud_and_rain</key>
-	<string></string>
+	<string>🌦</string>
+	<key>sun with cloud and rain</key>
+	<string>🌦</string>
+	<key>sun showers</key>
+	<string>🌦</string>
 	<key>sun_behind_cloud</key>
-	<string></string>
+	<string>🌥</string>
+	<key>sun behind cloud</key>
+	<string>🌥</string>
 	<key>earth_europe_africa</key>
+	<string>🌍</string>
+	<key>earth europe africa</key>
 	<string>🌍</string>
 	<key>earth_americas</key>
 	<string>🌎</string>
+	<key>earth americas</key>
+	<string>🌎</string>
+	<key>earth</key>
+	<string>🌎</string>
 	<key>earth_asia_australia</key>
+	<string>🌏</string>
+	<key>earth asia australia</key>
 	<string>🌏</string>
 	<key>volcano</key>
 	<string>🌋</string>
 	<key>milky_way</key>
 	<string>🌌</string>
+	<key>milky way</key>
+	<string>🌌</string>
+	<key>galaxy</key>
+	<string>🌌</string>
 	<key>shooting_star</key>
 	<string>🌠</string>
+	<key>shooting star</key>
+	<string>🌠</string>
 	<key>comet</key>
-	<string></string>
+	<string>☄️</string>
 	<key>star</key>
 	<string>⭐️</string>
 	<key>sunny</key>
 	<string>☀️</string>
 	<key>partly_cloudy</key>
 	<string>⛅️</string>
+	<key>partly cloudy</key>
+	<string>⛅️</string>
 	<key>cloudy</key>
 	<string>☁️</string>
 	<key>snowy</key>
-	<string></string>
+	<string>🌨</string>
 	<key>rainy</key>
-	<string></string>
+	<string>🌧</string>
 	<key>cloud_with_lightning</key>
-	<string></string>
+	<string>🌩</string>
+	<key>cloud with lightning</key>
+	<string>🌩</string>
 	<key>tornado</key>
-	<string></string>
+	<string>🌪</string>
 	<key>fog</key>
-	<string></string>
+	<string>🌫</string>
 	<key>wind_blowing_face</key>
-	<string></string>
+	<string>🌬</string>
+	<key>wind blowing</key>
+	<string>🌬</string>
 	<key>lightning</key>
 	<string>⚡️</string>
 	<key>umbrella_with_rain</key>
 	<string>☔️</string>
+	<key>umbrella with rain</key>
+	<string>☔️</string>
 	<key>umbrella</key>
-	<string></string>
+	<string>☂️</string>
 	<key>beach_umbrella</key>
-	<string></string>
+	<string>⛱</string>
+	<key>beach umbrella</key>
+	<string>⛱</string>
 	<key>snowflake</key>
 	<string>❄️</string>
 	<key>snowman</key>
 	<string>⛄️</string>
 	<key>snowman_with_snow</key>
-	<string></string>
+	<string>☃️</string>
+	<key>snowman with snow</key>
+	<string>☃️</string>
 	<key>cyclone</key>
 	<string>🌀</string>
 	<key>foggy</key>
@@ -718,51 +1256,101 @@
 	<string>🌵</string>
 	<key>heart_with_ribbon</key>
 	<string>💝</string>
+	<key>heart with ribbon</key>
+	<string>💝</string>
 	<key>japanese_dolls</key>
+	<string>🎎</string>
+	<key>japanese dolls</key>
 	<string>🎎</string>
 	<key>backpack</key>
 	<string>🎒</string>
 	<key>graduation_cap</key>
 	<string>🎓</string>
+	<key>graduation cap</key>
+	<string>🎓</string>
 	<key>carp_streamer</key>
+	<string>🎏</string>
+	<key>carp streamer</key>
 	<string>🎏</string>
 	<key>fireworks</key>
 	<string>🎆</string>
 	<key>firework_sparkler</key>
 	<string>🎇</string>
+	<key>firework sparkler</key>
+	<string>🎇</string>
 	<key>wind_chime</key>
+	<string>🎐</string>
+	<key>wind chime</key>
 	<string>🎐</string>
 	<key>moon_viewing</key>
 	<string>🎑</string>
+	<key>moon viewing</key>
+	<string>🎑</string>
 	<key>jack_o_lantern</key>
+	<string>🎃</string>
+	<key>jack o lantern</key>
+	<string>🎃</string>
+	<key>halloween</key>
 	<string>🎃</string>
 	<key>ghost</key>
 	<string>👻</string>
 	<key>santa</key>
 	<string>🎅</string>
+	<key>father christmas</key>
+	<string>🎅</string>
 	<key>christmas_tree</key>
+	<string>🎄</string>
+	<key>christmas tree</key>
 	<string>🎄</string>
 	<key>wrapped_present</key>
 	<string>🎁</string>
+	<key>wrapped present</key>
+	<string>🎁</string>
+	<key>present</key>
+	<string>🎁</string>
+	<key>gift</key>
+	<string>🎁</string>
 	<key>tanabata_tree</key>
+	<string>🎋</string>
+	<key>tanabata tree</key>
 	<string>🎋</string>
 	<key>party_popper</key>
 	<string>🎉</string>
+	<key>party popper</key>
+	<string>🎉</string>
+	<key>party</key>
+	<string>🎉</string>
 	<key>confetti_ball</key>
+	<string>🎊</string>
+	<key>confetti ball</key>
+	<string>🎊</string>
+	<key>pinata</key>
+	<string>🎊</string>
+	<key>confetti</key>
 	<string>🎊</string>
 	<key>balloon</key>
 	<string>🎈</string>
 	<key>crossed_flags</key>
 	<string>🎌</string>
+	<key>crossed flags</key>
+	<string>🎌</string>
 	<key>crystal_ball</key>
 	<string>🔮</string>
+	<key>crystal ball</key>
+	<string>🔮</string>
 	<key>movie_camera</key>
+	<string>🎥</string>
+	<key>movie camera</key>
 	<string>🎥</string>
 	<key>camera</key>
 	<string>📷</string>
 	<key>video_camera</key>
 	<string>📹</string>
+	<key>video camera</key>
+	<string>📹</string>
 	<key>vhs</key>
+	<string>📼</string>
+	<key>cassette</key>
 	<string>📼</string>
 	<key>cd</key>
 	<string>💿</string>
@@ -772,11 +1360,19 @@
 	<string>💽</string>
 	<key>floppy_disk</key>
 	<string>💾</string>
+	<key>floppy disk</key>
+	<string>💾</string>
+	<key>floppy</key>
+	<string>💾</string>
 	<key>computer</key>
-	<string>💻</string>
+	<string>🖥</string>
 	<key>cellphone</key>
 	<string>📱</string>
+	<key>iphone</key>
+	<string>📱</string>
 	<key>red_telephone</key>
+	<string>☎️</string>
+	<key>red telephone</key>
 	<string>☎️</string>
 	<key>telephone</key>
 	<string>📞</string>
@@ -784,15 +1380,29 @@
 	<string>📟</string>
 	<key>fax_machine</key>
 	<string>📠</string>
+	<key>fax machine</key>
+	<string>📠</string>
+	<key>fax</key>
+	<string>📠</string>
 	<key>satellite_antenna</key>
 	<string>📡</string>
+	<key>satellite antenna</key>
+	<string>📡</string>
+	<key>satellite dish</key>
+	<string>📡</string>
 	<key>satellite</key>
-	<string></string>
+	<string>🛰</string>
 	<key>tv</key>
+	<string>📺</string>
+	<key>television</key>
 	<string>📺</string>
 	<key>radio</key>
 	<string>📻</string>
 	<key>loud_sound</key>
+	<string>🔊</string>
+	<key>loud sound</key>
+	<string>🔊</string>
+	<key>loud</key>
 	<string>🔊</string>
 	<key>sound</key>
 	<string>🔉</string>
@@ -800,9 +1410,15 @@
 	<string>🔈</string>
 	<key>mute</key>
 	<string>🔇</string>
+	<key>no sound</key>
+	<string>🔇</string>
 	<key>bell</key>
 	<string>🔔</string>
 	<key>no_bell</key>
+	<string>🔕</string>
+	<key>silent</key>
+	<string>🔕</string>
+	<key>no bell</key>
 	<string>🔕</string>
 	<key>loudspeaker</key>
 	<string>📢</string>
@@ -810,9 +1426,13 @@
 	<string>📣</string>
 	<key>hourglass_with_flowing_sand</key>
 	<string>⏳</string>
+	<key>hourglass with flowing sand</key>
+	<string>⏳</string>
 	<key>hourglass</key>
 	<string>⌛️</string>
 	<key>alarm_clock</key>
+	<string>⏰</string>
+	<key>alarm clock</key>
 	<string>⏰</string>
 	<key>watch</key>
 	<string>⌚️</string>
@@ -820,11 +1440,21 @@
 	<string>🔓</string>
 	<key>lock_with_ink_pen</key>
 	<string>🔏</string>
+	<key>lock with ink pen</key>
+	<string>🔏</string>
+	<key>pick a lock</key>
+	<string>🔏</string>
 	<key>lock_and_key</key>
+	<string>🔐</string>
+	<key>lock and key</key>
 	<string>🔐</string>
 	<key>key</key>
 	<string>🔑</string>
 	<key>right_magnifying_glass</key>
+	<string>🔎</string>
+	<key>right magnifying glass</key>
+	<string>🔎</string>
+	<key>magnifying glass</key>
 	<string>🔎</string>
 	<key>lightbulb</key>
 	<string>💡</string>
@@ -832,13 +1462,25 @@
 	<string>🔦</string>
 	<key>high_brightness</key>
 	<string>🔆</string>
+	<key>high brightness</key>
+	<string>🔆</string>
+	<key>brighter</key>
+	<string>🔆</string>
 	<key>low_brightness</key>
 	<string>🔅</string>
+	<key>low brightness</key>
+	<string>🔅</string>
 	<key>electric_plug</key>
+	<string>🔌</string>
+	<key>electric plug</key>
+	<string>🔌</string>
+	<key>plug</key>
 	<string>🔌</string>
 	<key>battery</key>
 	<string>🔋</string>
 	<key>left_magnifying_glass</key>
+	<string>🔍</string>
+	<key>left magnifying glass</key>
 	<string>🔍</string>
 	<key>bathtub</key>
 	<string>🛁</string>
@@ -852,6 +1494,10 @@
 	<string>🔧</string>
 	<key>nut_and_bolt</key>
 	<string>🔩</string>
+	<key>nut and bolt</key>
+	<string>🔩</string>
+	<key>bolt</key>
+	<string>🔩</string>
 	<key>hammer</key>
 	<string>🔨</string>
 	<key>door</key>
@@ -862,17 +1508,31 @@
 	<string>💣</string>
 	<key>gun</key>
 	<string>🔫</string>
+	<key>pistol</key>
+	<string>🔫</string>
 	<key>knife</key>
 	<string>🔪</string>
 	<key>pill</key>
 	<string>💊</string>
+	<key>medicine</key>
+	<string>💊</string>
 	<key>syringe</key>
 	<string>💉</string>
+	<key>needle</key>
+	<string>💉</string>
+	<key>injection</key>
+	<string>💉</string>
 	<key>money_bag</key>
+	<string>💰</string>
+	<key>money bag</key>
+	<string>💰</string>
+	<key>bag of money</key>
 	<string>💰</string>
 	<key>yen</key>
 	<string>💴</string>
 	<key>dollars</key>
+	<string>💵</string>
+	<key>cash</key>
 	<string>💵</string>
 	<key>pounds</key>
 	<string>💷</string>
@@ -880,9 +1540,17 @@
 	<string>💶</string>
 	<key>credit_card</key>
 	<string>💳</string>
+	<key>credit card</key>
+	<string>💳</string>
 	<key>money_with_wings</key>
 	<string>💸</string>
+	<key>money with wings</key>
+	<string>💸</string>
 	<key>iphone_getting_call</key>
+	<string>📲</string>
+	<key>phone getting call</key>
+	<string>📲</string>
+	<key>getting a call</key>
 	<string>📲</string>
 	<key>email</key>
 	<string>📧</string>
@@ -894,35 +1562,71 @@
 	<string>✉️</string>
 	<key>envelope_with_arrow</key>
 	<string>📩</string>
+	<key>envelope with arrow</key>
+	<string>📩</string>
 	<key>incoming_envelope</key>
 	<string>📨</string>
+	<key>incoming envelope</key>
+	<string>📨</string>
+	<key>incoming mail</key>
+	<string>📨</string>
 	<key>postal_horn</key>
+	<string>📯</string>
+	<key>postal horn</key>
+	<string>📯</string>
+	<key>horn</key>
+	<string>📯</string>
+	<key>french horn</key>
 	<string>📯</string>
 	<key>mailbox</key>
 	<string>📫</string>
 	<key>mailbox_closed</key>
 	<string>📪</string>
-	<key>mailboax_with_mail</key>
+	<key>mailbox closed</key>
+	<string>📪</string>
+	<key>mailbox_with_mail</key>
+	<string>📬</string>
+	<key>mailbox with mail</key>
 	<string>📬</string>
 	<key>mailbox_no_mail</key>
+	<string>📭</string>
+	<key>mailbox no mail</key>
 	<string>📭</string>
 	<key>postbox</key>
 	<string>📮</string>
 	<key>package</key>
 	<string>📦</string>
+	<key>box</key>
+	<string>📦</string>
+	<key>packing</key>
+	<string>📦</string>
 	<key>memo</key>
+	<string>📝</string>
+	<key>note</key>
 	<string>📝</string>
 	<key>page</key>
 	<string>📄</string>
 	<key>page_with_curl</key>
 	<string>📃</string>
+	<key>page with curl</key>
+	<string>📃</string>
 	<key>bookmark_tabs</key>
+	<string>📑</string>
+	<key>bookmark tabs</key>
 	<string>📑</string>
 	<key>bar_chart</key>
 	<string>📊</string>
+	<key>bar chart</key>
+	<string>📊</string>
+	<key>chart</key>
+	<string>📊</string>
 	<key>upwards_chart</key>
 	<string>📈</string>
+	<key>upwards chart</key>
+	<string>📈</string>
 	<key>downwards_chart</key>
+	<string>📉</string>
+	<key>downwards chart</key>
 	<string>📉</string>
 	<key>scroll</key>
 	<string>📜</string>
@@ -934,13 +1638,21 @@
 	<string>📆</string>
 	<key>card_index</key>
 	<string>📇</string>
+	<key>card index</key>
+	<string>📇</string>
 	<key>file</key>
 	<string>📁</string>
 	<key>open_file</key>
 	<string>📂</string>
+	<key>open file</key>
+	<string>📂</string>
 	<key>scissors</key>
 	<string>✂️</string>
+	<key>cut</key>
+	<string>✂️</string>
 	<key>pushpin</key>
+	<string>📌</string>
+	<key>thumbtack</key>
 	<string>📌</string>
 	<key>paperclip</key>
 	<string>📎</string>
@@ -952,17 +1664,31 @@
 	<string>📏</string>
 	<key>triangular_ruler</key>
 	<string>📐</string>
+	<key>triangular ruler</key>
+	<string>📐</string>
 	<key>closed_book</key>
+	<string>📕</string>
+	<key>closed book</key>
+	<string>📕</string>
+	<key>book</key>
 	<string>📕</string>
 	<key>green_book</key>
 	<string>📗</string>
+	<key>green book</key>
+	<string>📗</string>
 	<key>blue_book</key>
 	<string>📘</string>
+	<key>blue book</key>
+	<string>📘</string>
 	<key>orange_book</key>
+	<string>📙</string>
+	<key>orange book</key>
 	<string>📙</string>
 	<key>notebook</key>
 	<string>📓</string>
 	<key>orange_notebook</key>
+	<string>📔</string>
+	<key>decorative notebook</key>
 	<string>📔</string>
 	<key>ledger</key>
 	<string>📒</string>
@@ -970,9 +1696,15 @@
 	<string>📚</string>
 	<key>open_book</key>
 	<string>📖</string>
+	<key>open book</key>
+	<string>📖</string>
 	<key>bookmark</key>
 	<string>🔖</string>
 	<key>name_badge</key>
+	<string>📛</string>
+	<key>name badge</key>
+	<string>📛</string>
+	<key>nametag</key>
 	<string>📛</string>
 	<key>microscope</key>
 	<string>🔬</string>
@@ -982,7 +1714,15 @@
 	<string>📰</string>
 	<key>art</key>
 	<string>🎨</string>
+	<key>colors</key>
+	<string>🎨</string>
+	<key>colours</key>
+	<string>🎨</string>
+	<key>paint</key>
+	<string>🎨</string>
 	<key>clapper_board</key>
+	<string>🎬</string>
+	<key>clapper board</key>
 	<string>🎬</string>
 	<key>microphone</key>
 	<string>🎤</string>
@@ -990,9 +1730,17 @@
 	<string>🎧</string>
 	<key>music_score</key>
 	<string>🎼</string>
+	<key>music score</key>
+	<string>🎼</string>
 	<key>music_note</key>
 	<string>🎵</string>
+	<key>music note</key>
+	<string>🎵</string>
 	<key>multiple_music_notes</key>
+	<string>🎶</string>
+	<key>music notes</key>
+	<string>🎶</string>
+	<key>music</key>
 	<string>🎶</string>
 	<key>piano</key>
 	<string>🎹</string>
@@ -1006,17 +1754,27 @@
 	<string>🎸</string>
 	<key>video_game_alien</key>
 	<string>👾</string>
+	<key>video game alien</key>
+	<string>👾</string>
 	<key>video_game</key>
+	<string>🎮</string>
+	<key>video game</key>
 	<string>🎮</string>
 	<key>joker</key>
 	<string>🃏</string>
 	<key>flower_playing_cards</key>
+	<string>🎴</string>
+	<key>playing cards</key>
 	<string>🎴</string>
 	<key>mahjong</key>
 	<string>🀄️</string>
 	<key>dice</key>
 	<string>🎲</string>
 	<key>target</key>
+	<string>🎯</string>
+	<key>darts</key>
+	<string>🎯</string>
+	<key>bullseye</key>
 	<string>🎯</string>
 	<key>football</key>
 	<string>🏈</string>
@@ -1030,7 +1788,11 @@
 	<string>🎾</string>
 	<key>billards</key>
 	<string>🎱</string>
+	<key>pool</key>
+	<string>🎱</string>
 	<key>rugby_ball</key>
+	<string>🏉</string>
+	<key>rugby ball</key>
 	<string>🏉</string>
 	<key>bowling</key>
 	<string>🎳</string>
@@ -1038,55 +1800,99 @@
 	<string>⛳️</string>
 	<key>mountain_biker</key>
 	<string>🚵</string>
+	<key>mountain biker</key>
+	<string>🚵</string>
+	<key>mountain biking</key>
+	<string>🚵</string>
 	<key>bicyclist</key>
 	<string>🚴</string>
 	<key>checkered_flag</key>
 	<string>🏁</string>
-	<key>hoorse_racing</key>
+	<key>checkered flag</key>
+	<string>🏁</string>
+	<key>horse_racing</key>
+	<string>🏇</string>
+	<key>horse racing</key>
+	<string>🏇</string>
+	<key>horse riding</key>
 	<string>🏇</string>
 	<key>trophy</key>
 	<string>🏆</string>
+	<key>prize</key>
+	<string>🏆</string>
 	<key>skis</key>
+	<string>🎿</string>
+	<key>ski</key>
 	<string>🎿</string>
 	<key>snowboarding</key>
 	<string>🏂</string>
+	<key>snowboard</key>
+	<string>🏂</string>
 	<key>swimming</key>
 	<string>🏊</string>
+	<key>swim</key>
+	<string>🏊</string>
 	<key>surfing</key>
+	<string>🏄</string>
+	<key>surf</key>
 	<string>🏄</string>
 	<key>fishing</key>
 	<string>🎣</string>
 	<key>hot_beverage</key>
 	<string>☕️</string>
+	<key>hot drink</key>
+	<string>☕️</string>
+	<key>tea</key>
+	<string>☕️</string>
+	<key>coffee</key>
+	<string>☕️</string>
 	<key>soup</key>
 	<string>🍵</string>
 	<key>sake_bottle_and_cup</key>
 	<string>🍶</string>
+	<key>sake</key>
+	<string>🍶</string>
 	<key>baby_bottle</key>
+	<string>🍼</string>
+	<key>baby bottle</key>
 	<string>🍼</string>
 	<key>beer</key>
 	<string>🍺</string>
 	<key>clinking_beer_mugs</key>
 	<string>🍻</string>
+	<key>beer mugs</key>
+	<string>🍻</string>
 	<key>cocktail</key>
 	<string>🍸</string>
 	<key>tropical_drink</key>
 	<string>🍹</string>
+	<key>tropical drink</key>
+	<string>🍹</string>
 	<key>wine</key>
 	<string>🍷</string>
 	<key>champagne</key>
-	<string></string>
+	<string>🍾</string>
 	<key>cutlery</key>
 	<string>🍴</string>
+	<key>fork and knife</key>
+	<string>🍴</string>
 	<key>cutlery_with_plate</key>
-	<string></string>
+	<string>🍽</string>
+	<key>cutlery with plate</key>
+	<string>🍽</string>
 	<key>pizza</key>
 	<string>🍕</string>
 	<key>burger</key>
 	<string>🍔</string>
 	<key>french_fries</key>
 	<string>🍟</string>
+	<key>french fries</key>
+	<string>🍟</string>
+	<key>fries</key>
+	<string>🍟</string>
 	<key>chicken_leg</key>
+	<string>🍗</string>
+	<key>chicken leg</key>
 	<string>🍗</string>
 	<key>meat</key>
 	<string>🍖</string>
@@ -1094,15 +1900,25 @@
 	<string>🍝</string>
 	<key>rice_and_curry</key>
 	<string>🍛 </string>
+	<key>rice and curry</key>
+	<string>🍛 </string>
 	<key>bento_box</key>
+	<string>🍱</string>
+	<key>bento box</key>
 	<string>🍱</string>
 	<key>sushi</key>
 	<string>🍣</string>
 	<key>fish_cake</key>
 	<string>🍥</string>
+	<key>fish cake</key>
+	<string>🍥</string>
 	<key>rice_ball</key>
 	<string>🍙</string>
+	<key>rice ball</key>
+	<string>🍙</string>
 	<key>rice_cracker</key>
+	<string>🍘</string>
+	<key>rice cracker</key>
 	<string>🍘</string>
 	<key>rice</key>
 	<string>🍚</string>
@@ -1113,34 +1929,50 @@
 	<key>dango</key>
 	<string>🍡</string>
 	<key>shrimp</key>
-	<string></string>
+	<string>🍤</string>
 	<key>cooking</key>
+	<string>🍳</string>
+	<key>egg</key>
 	<string>🍳</string>
 	<key>bread</key>
 	<string>🍞</string>
 	<key>cheese</key>
-	<string></string>
+	<string>🧀</string>
 	<key>taco</key>
-	<string></string>
+	<string>🌮</string>
 	<key>popcorn</key>
-	<string></string>
+	<string>🍿</string>
 	<key>pot_of_food</key>
-	<string></string>
+	<string>🍲</string>
+	<key>pot of food</key>
+	<string>🍲</string>
+	<key>food</key>
+	<string>🍲</string>
 	<key>burrito</key>
-	<string></string>
+	<string>🌯</string>
 	<key>hotdog</key>
-	<string></string>
+	<string>🌭</string>
 	<key>donut</key>
+	<string>🍩</string>
+	<key>doughnut</key>
 	<string>🍩</string>
 	<key>custard</key>
 	<string>🍮</string>
 	<key>soft_serve_icecream</key>
 	<string>🍦</string>
+	<key>softserve</key>
+	<string>🍦</string>
+	<key>icecream cone</key>
+	<string>🍦</string>
 	<key>icecream</key>
 	<string>🍨</string>
 	<key>snowcone</key>
 	<string>🍧</string>
+	<key>shaved ice</key>
+	<string>🍧</string>
 	<key>birthday_cake</key>
+	<string>🎂</string>
+	<key>birthday cake</key>
 	<string>🎂</string>
 	<key>shortcake</key>
 	<string>🍰</string>
@@ -1158,13 +1990,19 @@
 	<string>🍎</string>
 	<key>green_apple</key>
 	<string>🍏</string>
+	<key>green apple</key>
+	<string>🍏</string>
 	<key>orange</key>
 	<string>🍊</string>
 	<key>lemon</key>
 	<string>🍋</string>
 	<key>cherries</key>
 	<string>🍒</string>
+	<key>cherry</key>
+	<string>🍒</string>
 	<key>grapes</key>
+	<string>🍇</string>
+	<key>grape</key>
 	<string>🍇</string>
 	<key>watermelon</key>
 	<string>🍉</string>
@@ -1182,6 +2020,10 @@
 	<string>🍍</string>
 	<key>sweet_potato</key>
 	<string>🍠</string>
+	<key>sweet potato</key>
+	<string>🍠</string>
+	<key>yam</key>
+	<string>🍠</string>
 	<key>eggplant</key>
 	<string>🍆</string>
 	<key>tomato</key>
@@ -1189,44 +2031,80 @@
 	<key>corn</key>
 	<string>🌽</string>
 	<key>pepper</key>
-	<string></string>
+	<string>🌶</string>
 	<key>amphora</key>
-	<string></string>
+	<string>🏺</string>
 	<key>world_map</key>
-	<string></string>
+	<string>🗺</string>
+	<key>world map</key>
+	<string>🗺</string>
+	<key>map</key>
+	<string>🗺</string>
 	<key>mountain</key>
-	<string></string>
+	<string>⛰</string>
 	<key>mountain_with_snow</key>
-	<string></string>
+	<string>🏔</string>
+	<key>mountain with snow</key>
+	<string>🏔</string>
 	<key>beach</key>
-	<string></string>
+	<string>🏖</string>
 	<key>desert</key>
-	<string></string>
+	<string>🏜</string>
 	<key>deserted_island</key>
-	<string></string>
+	<string>🏝</string>
+	<key>deserted island</key>
+	<string>🏝</string>
+	<key>island</key>
+	<string>🏝</string>
 	<key>national_park</key>
-	<string></string>
+	<string>🏞</string>
+	<key>national park</key>
+	<string>🏞</string>
+	<key>park</key>
+	<string>🏞</string>
 	<key>stadium</key>
-	<string></string>
+	<string>🏟</string>
 	<key>classical_building</key>
-	<string></string>
+	<string>🏛</string>
+	<key>classical building</key>
+	<string>🏛</string>
+	<key>historical building</key>
+	<string>🏛</string>
+	<key>monument</key>
+	<string>🏛</string>
 	<key>construction_zone</key>
-	<string></string>
+	<string>🏗</string>
+	<key>construction zone</key>
+	<string>🏗</string>
 	<key>cityscape</key>
-	<string></string>
+	<string>🏙</string>
+	<key>cityline</key>
+	<string>🏙</string>
 	<key>neighbourhood</key>
-	<string></string>
+	<string>🏘</string>
 	<key>derelict_house</key>
-	<string></string>
+	<string>🏚</string>
+	<key>derilict house</key>
+	<string>🏚</string>
 	<key>house</key>
 	<string>🏠</string>
 	<key>house_with_graden</key>
+	<string>🏡</string>
+	<key>house with garden</key>
 	<string>🏡</string>
 	<key>school</key>
 	<string>🏫</string>
 	<key>office_building</key>
 	<string>🏢</string>
+	<key>office building</key>
+	<string>🏢</string>
+	<key>office</key>
+	<string>🏢</string>
+	<key>building</key>
+	<string>🏢</string>
 	<key>japanese_post_office</key>
+	<string>🏣</string>
+	<key>japanese post office</key>
 	<string>🏣</string>
 	<key>hospital</key>
 	<string>🏥</string>
@@ -1234,7 +2112,11 @@
 	<string>🏦</string>
 	<key>convinence_store</key>
 	<string>🏪</string>
+	<key>convinence store</key>
+	<string>🏪</string>
 	<key>love_hotel</key>
+	<string>🏩</string>
+	<key>love hotel</key>
 	<string>🏩</string>
 	<key>hotel</key>
 	<string>🏨</string>
@@ -1242,45 +2124,81 @@
 	<string>💒</string>
 	<key>church</key>
 	<string>⛪️</string>
+	<key>chapel</key>
+	<string>⛪️</string>
 	<key>kaaba</key>
-	<string></string>
+	<string>🕋</string>
 	<key>place_of_worship</key>
-	<string></string>
+	<string>🛐</string>
+	<key>place of worship</key>
+	<string>🛐</string>
 	<key>mosque</key>
-	<string></string>
+	<string>🕌</string>
 	<key>synagogue</key>
-	<string></string>
+	<string>🕍</string>
 	<key>department_store</key>
+	<string>🏬</string>
+	<key>department store</key>
+	<string>🏬</string>
+	<key>store</key>
 	<string>🏬</string>
 	<key>post_office</key>
 	<string>🏤</string>
+	<key>post office</key>
+	<string>🏤</string>
 	<key>sunset_over_buildings</key>
+	<string>🌇</string>
+	<key>sunset over buildings</key>
+	<string>🌇</string>
+	<key>sunset</key>
+	<string>🌇</string>
+	<key>evening</key>
 	<string>🌇</string>
 	<key>dusk</key>
 	<string>🌆</string>
 	<key>japanese_castle</key>
+	<string>🏯</string>
+	<key>japanese castle</key>
 	<string>🏯</string>
 	<key>castle</key>
 	<string>🏰</string>
 	<key>tent</key>
 	<string>⛺️</string>
 	<key>camping</key>
-	<string></string>
+	<string>🏕</string>
 	<key>factory</key>
 	<string>🏭</string>
 	<key>tokyo_tower</key>
 	<string>🗼</string>
+	<key>tokyo tower</key>
+	<string>🗼</string>
 	<key>japan_silhouette</key>
+	<string>🗾</string>
+	<key>japa silhouette</key>
 	<string>🗾</string>
 	<key>mount_fuji</key>
 	<string>🗻</string>
+	<key>mount fuji</key>
+	<string>🗻</string>
 	<key>mountain_sunrise</key>
+	<string>🌄</string>
+	<key>mountain sunrise</key>
 	<string>🌄</string>
 	<key>sunrise</key>
 	<string>🌅</string>
+	<key>morning</key>
+	<string>🌅</string>
 	<key>night_with_stars</key>
 	<string>🌃</string>
+	<key>night with stars</key>
+	<string>🌃</string>
+	<key>night</key>
+	<string>🌃</string>
 	<key>statue_of_liberty</key>
+	<string>🗽</string>
+	<key>statue of librety</key>
+	<string>🗽</string>
+	<key>new york</key>
 	<string>🗽</string>
 	<key>bridge</key>
 	<string>🌉</string>
@@ -1288,9 +2206,13 @@
 	<string>🎠</string>
 	<key>ferris_wheel</key>
 	<string>🎡</string>
+	<key>ferris wheel</key>
+	<string>🎡</string>
 	<key>fountain</key>
 	<string>⛲️</string>
 	<key>rollercoaster</key>
+	<string>🎢</string>
+	<key>ride</key>
 	<string>🎢</string>
 	<key>ship</key>
 	<string>🚢</string>
@@ -1301,28 +2223,48 @@
 	<key>rowboat</key>
 	<string>🚣</string>
 	<key>passenger_ship</key>
-	<string></string>
+	<string>🛳</string>
+	<key>passenger ship</key>
+	<string>🛳</string>
+	<key>cruise</key>
+	<string>🛳</string>
 	<key>ferry</key>
-	<string></string>
+	<string>⛴</string>
 	<key>motorboat</key>
-	<string></string>
+	<string>🛥</string>
 	<key>anchor</key>
 	<string>⚓️</string>
 	<key>rocket</key>
 	<string>🚀</string>
+	<key>spaceship</key>
+	<string>🚀</string>
 	<key>airplane</key>
 	<string>✈️</string>
 	<key>small_airplane</key>
-	<string></string>
+	<string>🛩</string>
+	<key>small airplane</key>
+	<string>🛩</string>
 	<key>airplane_departure</key>
-	<string></string>
+	<string>🛫</string>
+	<key>airplane departure</key>
+	<string>🛫</string>
+	<key>departure</key>
+	<string>🛫</string>
 	<key>airplane_arrival</key>
-	<string></string>
+	<string>🛬</string>
+	<key>airplane arrival</key>
+	<string>🛬</string>
+	<key>arrival</key>
+	<string>🛬</string>
 	<key>seat</key>
 	<string>💺</string>
 	<key>helicopter</key>
 	<string>🚁</string>
 	<key>steam_train</key>
+	<string>🚂</string>
+	<key>steam train</key>
+	<string>🚂</string>
+	<key>train</key>
 	<string>🚂</string>
 	<key>tram</key>
 	<string>🚊</string>
@@ -1330,13 +2272,23 @@
 	<string>🚉</string>
 	<key>mountain_railway</key>
 	<string>🚞</string>
+	<key>mountain railway</key>
+	<string>🚞</string>
 	<key>oncoming_train</key>
+	<string>🚆</string>
+	<key>oncoming train</key>
 	<string>🚆</string>
 	<key>train_high_speed</key>
 	<string>🚄</string>
+	<key>high speed train</key>
+	<string>🚄</string>
 	<key>train_bullet_nose</key>
 	<string>🚅</string>
+	<key>bullet nose train</key>
+	<string>🚅</string>
 	<key>light_rail</key>
+	<string>🚈</string>
+	<key>light rail</key>
 	<string>🚈</string>
 	<key>subway</key>
 	<string>🚇</string>
@@ -1344,33 +2296,65 @@
 	<string>🚝</string>
 	<key>tram_car</key>
 	<string>🚋</string>
+	<key>tram car</key>
+	<string>🚋</string>
 	<key>railway_car</key>
+	<string>🚃</string>
+	<key>railway car</key>
 	<string>🚃</string>
 	<key>bus</key>
 	<string>🚌</string>
 	<key>trolley_bus</key>
 	<string>🚎</string>
-	<key>oncoming_bus</key>
+	<key>trolley bus</key>
+	<string>🚎</string>
+	<key>trolley bus - 2</key>
+	<string>🚎</string>
+	<key>streetcar</key>
 	<string>🚍</string>
 	<key>blue_car</key>
 	<string>🚙</string>
+	<key>blue car</key>
+	<string>🚙</string>
 	<key>oncoming_car</key>
+	<string>🚘</string>
+	<key>oncoming car</key>
 	<string>🚘</string>
 	<key>red_car</key>
 	<string>🚗</string>
+	<key>red car</key>
+	<string>🚗</string>
+	<key>car</key>
+	<string>🚗</string>
 	<key>taxi</key>
+	<string>🚕</string>
+	<key>cab</key>
 	<string>🚕</string>
 	<key>oncoming_taxi</key>
 	<string>🚖</string>
+	<key>oncoming taxi</key>
+	<string>🚖</string>
 	<key>articulated_lorry</key>
+	<string>🚛</string>
+	<key>articulated lorry</key>
+	<string>🚛</string>
+	<key>truck</key>
 	<string>🚛</string>
 	<key>delivery_truck</key>
 	<string>🚚</string>
-	<key>sirens</key>
+	<key>delivery truck</key>
+	<string>🚚</string>
+	<key>siren</key>
 	<string>🚨</string>
 	<key>police_car</key>
 	<string>🚓</string>
+	<key>police car</key>
+	<string>🚓</string>
+	<key>cop car</key>
+	<string>🚓</string>
 	<key>oncoming_police_car</key>
+	<string>🚔</string>
+	<key>oncoming police car</key>
 	<string>🚔</string>
 	<key>firetruck</key>
 	<string>🚒</string>
@@ -1382,9 +2366,13 @@
 	<string>🚲</string>
 	<key>aerial_tramway</key>
 	<string>🚡</string>
-	<key>suspension_railway</key>
+	<key>aerial tramway</key>
+	<string>🚡</string>
+	<key>suspension railway</key>
 	<string>🚟</string>
 	<key>mountain_cableway</key>
+	<string>🚠</string>
+	<key>mountain cableway</key>
 	<string>🚠</string>
 	<key>tractor</key>
 	<string>🚜</string>
@@ -1392,9 +2380,13 @@
 	<string>💈</string>
 	<key>bus_stop</key>
 	<string>🚏</string>
+	<key>bus stop</key>
+	<string>🚏</string>
 	<key>ticket</key>
 	<string>🎫</string>
 	<key>vertical_traffic_light</key>
+	<string>🚦</string>
+	<key>traffic light</key>
 	<string>🚦</string>
 	<key>horizontal_traffic_light</key>
 	<string>🚥</string>
@@ -1406,17 +2398,37 @@
 	<string>🔰</string>
 	<key>fuel_pump</key>
 	<string>⛽️</string>
+	<key>fuel pump</key>
+	<string>⛽️</string>
+	<key>gas</key>
+	<string>⛽️</string>
+	<key>fuel</key>
+	<string>⛽️</string>
 	<key>oil_drum</key>
-	<string></string>
+	<string>🛢</string>
+	<key>oil drum</key>
+	<string>🛢</string>
 	<key>railway_track</key>
-	<string></string>
+	<string>🛤</string>
+	<key>railway track</key>
+	<string>🛤</string>
 	<key>highway</key>
-	<string></string>
+	<string>🛣</string>
 	<key>izakaya_lantern</key>
+	<string>🏮</string>
+	<key>izakaya lantern</key>
+	<string>🏮</string>
+	<key>lantern</key>
 	<string>🏮</string>
 	<key>slot_machine</key>
 	<string>🎰</string>
+	<key>slot machine</key>
+	<string>🎰</string>
+	<key>game</key>
+	<string>🎰</string>
 	<key>hot_springs</key>
+	<string>♨️</string>
+	<key>hot springs</key>
 	<string>♨️</string>
 	<key>moyai</key>
 	<string>🗿</string>
@@ -1424,13 +2436,35 @@
 	<string>🎪</string>
 	<key>performing_arts</key>
 	<string>🎭</string>
+	<key>performing arts</key>
+	<string>🎭</string>
+	<key>acting</key>
+	<string>🎭</string>
+	<key>drama</key>
+	<string>🎭</string>
 	<key>frame_with_picture</key>
-	<string></string>
+	<string>🖼</string>
+	<key>frame with picture</key>
+	<string>🖼</string>
+	<key>frame</key>
+	<string>🖼</string>
+	<key>picture</key>
+	<string>🖼</string>
+	<key>painting</key>
+	<string>🖼</string>
 	<key>bellhop_bell</key>
-	<string></string>
+	<string>🛎</string>
+	<key>bellhop bell</key>
+	<string>🛎</string>
 	<key>round_push_pin</key>
 	<string>📍</string>
+	<key>round pushpin</key>
+	<string>📍</string>
+	<key>here</key>
+	<string>📍</string>
 	<key>triangular_flag</key>
+	<string>🚩</string>
+	<key>triangular flag</key>
 	<string>🚩</string>
 	<key>japan</key>
 	<string>🇯🇵</string>
@@ -1476,69 +2510,93 @@
 	<string>🔟</string>
 	<key>1234</key>
 	<string>🔢</string>
+	<key>numbers</key>
+	<string>🔢</string>
 	<key>#</key>
 	<string>#️⃣</string>
 	<key>symbols</key>
 	<string>🔣</string>
-	<key>arrowleft</key>
+	<key>arrow left</key>
 	<string>⬅️</string>
-	<key>arrowright</key>
+	<key>left</key>
+	<string>⬅️</string>
+	<key>arrow right</key>
 	<string>➡️</string>
-	<key>arrowup</key>
+	<key>right</key>
+	<string>➡️</string>
+	<key>arrow up</key>
 	<string>⬆️</string>
-	<key>arrowdown</key>
+	<key>arrow down</key>
+	<string>⬇️</string>
+	<key>down</key>
 	<string>⬇️</string>
 	<key>abcd</key>
 	<string>🔡</string>
+	<key>letters</key>
+	<string>🔡</string>
 	<key>abc</key>
 	<string>🔤</string>
-	<key>arrowupperright</key>
+	<key>arrow upper right</key>
 	<string>↗️</string>
-	<key>arrowupperleft</key>
+	<key>arrow</key>
+	<string>↗️</string>
+	<key>arrow upper left</key>
 	<string>↖️</string>
-	<key>arrowlowerright</key>
+	<key>arrow lower right</key>
 	<string>↘️</string>
-	<key>arrowlowerleft</key>
+	<key>arrow lower left</key>
 	<string>↙️</string>
-	<key>arrowleftright</key>
+	<key>arrow left right</key>
 	<string>↔️</string>
-	<key>arrowupdown</key>
+	<key>arrow up down</key>
 	<string>↕️</string>
-	<key>arrowscounterclockwise</key>
+	<key>arrows counter clockwise</key>
 	<string>🔄</string>
-	<key>arrowleftsmall</key>
+	<key>arrow circle</key>
+	<string>🔄</string>
+	<key>arrow left small</key>
 	<string>◀️</string>
-	<key>arrowrightsmall</key>
+	<key>arrow right small</key>
 	<string>▶️</string>
-	<key>arrowupsmall</key>
+	<key>play</key>
+	<string>▶️</string>
+	<key>arrow up small</key>
 	<string>🔼</string>
-	<key>arrowdownsmall</key>
+	<key>arrow down small</key>
 	<string>🔽</string>
-	<key>arrowlefthook</key>
+	<key>arrow left hook</key>
 	<string>↩️</string>
-	<key>arrowrighthook</key>
+	<key>arrow round</key>
+	<string>↩️</string>
+	<key>arrow right hook</key>
 	<string>↪️</string>
-	<key>informationsource</key>
+	<key>information</key>
+	<string>ℹ️</string>
+	<key>info</key>
 	<string>ℹ️</string>
 	<key>rewind</key>
 	<string>⏪</string>
-	<key>fastforward</key>
+	<key>fast forward</key>
 	<string>⏩</string>
-	<key>arrowdoubleup</key>
+	<key>arrow double up</key>
 	<string>⏫</string>
-	<key>arrowdoubledown</key>
+	<key>arrow double down</key>
 	<string>⏬</string>
-	<key>arrowheadingdown</key>
+	<key>arrow heading down</key>
 	<string>⤵️</string>
-	<key>arrowheadingup</key>
+	<key>arrow heading up</key>
 	<string>⤴️</string>
 	<key>ok</key>
 	<string>🆗</string>
-	<key>twistedarrows</key>
+	<key>twisted arrows</key>
+	<string>🔀</string>
+	<key>shuffle</key>
 	<string>🔀</string>
 	<key>repeat</key>
 	<string>🔁</string>
 	<key>repeatone</key>
+	<string>🔂</string>
+	<key>repeat one</key>
 	<string>🔂</string>
 	<key>new</key>
 	<string>🆕</string>
@@ -1550,9 +2608,15 @@
 	<string>🆓</string>
 	<key>ng</key>
 	<string>🆖</string>
-	<key>signalstrength</key>
+	<key>not good</key>
+	<string>🆖</string>
+	<key>signal strength</key>
+	<string>📶</string>
+	<key>signal</key>
 	<string>📶</string>
 	<key>cinema</key>
+	<string>🎦</string>
+	<key>theatre</key>
 	<string>🎦</string>
 	<key>koko</key>
 	<string>🈁</string>
@@ -1576,11 +2640,11 @@
 	<string>🚹</string>
 	<key>womens</key>
 	<string>🚺</string>
-	<key>babysymbol</key>
+	<key>baby symbol</key>
 	<string>🚼</string>
 	<key>wc</key>
 	<string>🚾</string>
-	<key>potablewater</key>
+	<key>potable water</key>
 	<string>🚰</string>
 	<key>trash</key>
 	<string>🚮</string>
@@ -1588,7 +2652,7 @@
 	<string>🅿️</string>
 	<key>wheelchair</key>
 	<string>♿️</string>
-	<key>nosmoking</key>
+	<key>no smoking</key>
 	<string>🚭</string>
 	<key>u6708</key>
 	<string>🈷</string>
@@ -1598,17 +2662,17 @@
 	<string>🈂</string>
 	<key>m</key>
 	<string>Ⓜ️</string>
-	<key>passportcontrol</key>
+	<key>passport control</key>
 	<string>🛂</string>
-	<key>baggageclaim</key>
+	<key>baggage claim</key>
 	<string>🛄</string>
-	<key>leftluggage</key>
+	<key>left luggage</key>
 	<string>🛅</string>
 	<key>customs</key>
 	<string>🛃</string>
 	<key>accept</key>
 	<string>🉑</string>
-	<key>secret</key>
+	<key>secret sign</key>
 	<string>㊙️</string>
 	<key>u7981</key>
 	<string>🈲</string>
@@ -1624,41 +2688,41 @@
 	<string>🆘</string>
 	<key>id</key>
 	<string>🆔</string>
-	<key>noentrysign</key>
+	<key>no</key>
 	<string>🚫</string>
-	<key>nounderage</key>
+	<key>no underage</key>
 	<string>🔞</string>
-	<key>nomobilephones</key>
+	<key>no mobile phones</key>
 	<string>📵</string>
-	<key>nolittering</key>
+	<key>no littering</key>
 	<string>🚯</string>
-	<key>nopotablewater</key>
+	<key>no potable water</key>
 	<string>🚱</string>
-	<key>nobicycles</key>
+	<key>no bicycles</key>
 	<string>🚳</string>
-	<key>nopedestrians</key>
+	<key>no pedestrians</key>
 	<string>🚷</string>
-	<key>childrencrossing</key>
+	<key>children crossing</key>
 	<string>🚸</string>
-	<key>noentry</key>
+	<key>no entry</key>
 	<string>⛔️</string>
-	<key>whiteasterisk</key>
+	<key>asterisk</key>
 	<string>✳️</string>
 	<key>sparkle</key>
 	<string>❇️</string>
-	<key>whitecrossmark</key>
+	<key>x</key>
 	<string>❎</string>
-	<key>whitecheckmark</key>
+	<key>white check mark</key>
 	<string>✅</string>
-	<key>fourpointedorangestar</key>
+	<key>four pointed orange star</key>
 	<string>✴️</string>
-	<key>heartdecoration</key>
+	<key>heart decoration</key>
 	<string>💟</string>
 	<key>vs</key>
 	<string>🆚</string>
-	<key>vibrationmode</key>
+	<key>vibration mode</key>
 	<string>📳</string>
-	<key>mobilephoneoff</key>
+	<key>mobile phone off</key>
 	<string>📴</string>
 	<key>ab</key>
 	<string>🆎</string>
@@ -1666,9 +2730,9 @@
 	<string>🅱</string>
 	<key>a</key>
 	<string>🅰</string>
-	<key>oinred</key>
+	<key>red o</key>
 	<string>🅾</string>
-	<key>diamondwithdotinside</key>
+	<key>diamond with dot</key>
 	<string>💠</string>
 	<key>loop</key>
 	<string>➰</string>
@@ -1686,6 +2750,8 @@
 	<string>♌️</string>
 	<key>virgo</key>
 	<string>♍️</string>
+	<key>horoscope</key>
+	<string>♍️</string>
 	<key>libra</key>
 	<string>♎️</string>
 	<key>scorpio</key>
@@ -1700,23 +2766,29 @@
 	<string>♓️</string>
 	<key>ophiuchus</key>
 	<string>⛎</string>
-	<key>sixpointedstar</key>
+	<key>six pointed star</key>
+	<string>🔯</string>
+	<key>star of david</key>
 	<string>🔯</string>
 	<key>menorah</key>
-	<string></string>
+	<string>🕎</string>
 	<key>atm</key>
 	<string>🏧</string>
-	<key>currencychart</key>
+	<key>currency chart</key>
 	<string>💹</string>
-	<key>heavydollarsign</key>
+	<key>dollar sign</key>
 	<string>💲</string>
-	<key>currencyexchange</key>
+	<key>currency exchange</key>
+	<string>💱</string>
+	<key>currency</key>
 	<string>💱</string>
 	<key>copyright</key>
 	<string>©</string>
 	<key>registered</key>
 	<string>®</string>
 	<key>tm</key>
+	<string>™</string>
+	<key>trademark</key>
 	<string>™</string>
 	<key>!!</key>
 	<string>‼️</string>
@@ -1744,61 +2816,71 @@
 	<string>🔜</string>
 	<key>arrowsclockwise</key>
 	<string>🔃</string>
-	<key>clock12</key>
+	<key>clock 12</key>
 	<string>🕛</string>
-	<key>clock1</key>
+	<key>clock 1</key>
 	<string>🕐</string>
-	<key>clock2</key>
+	<key>clock 2</key>
 	<string>🕑</string>
-	<key>clock3</key>
+	<key>clock 3</key>
 	<string>🕒</string>
-	<key>clock4</key>
+	<key>clock 4</key>
 	<string>🕓</string>
-	<key>clock5</key>
+	<key>clock 5</key>
 	<string>🕔</string>
-	<key>clock6</key>
+	<key>clock</key>
+	<string>🕔</string>
+	<key>clock 6</key>
 	<string>🕕</string>
-	<key>clock7</key>
+	<key>clock 7</key>
 	<string>🕖</string>
-	<key>clock8</key>
+	<key>clock 8</key>
 	<string>🕗</string>
-	<key>clock9</key>
+	<key>clock 9</key>
 	<string>🕘</string>
-	<key>clock10</key>
+	<key>clock 10</key>
 	<string>🕙</string>
-	<key>clock11</key>
+	<key>clock 11</key>
 	<string>🕚</string>
-	<key>clock130</key>
-	<string></string>
-	<key>clock230</key>
-	<string></string>
-	<key>clock330</key>
-	<string></string>
-	<key>clock430</key>
-	<string></string>
-	<key>clock530</key>
-	<string></string>
-	<key>clock630</key>
+	<key>clock 1 30</key>
+	<string>🕜</string>
+	<key>clock 2 30</key>
+	<string>🕝</string>
+	<key>clock 3 30</key>
+	<string>🕞</string>
+	<key>clock 4 30</key>
+	<string>🕟</string>
+	<key>clock 5 30</key>
+	<string>🕠</string>
+	<key>clock 6 30</key>
 	<string>🕡</string>
-	<key>clock730</key>
+	<key>clock 7 30</key>
 	<string>🕢</string>
-	<key>clock830</key>
+	<key>clock 8 30</key>
 	<string>🕣</string>
-	<key>clock930</key>
+	<key>clock 9 30</key>
 	<string>🕤</string>
-	<key>clock1030</key>
+	<key>clock 10 30</key>
 	<string>🕥</string>
-	<key>clock1130</key>
+	<key>clock 11 30</key>
 	<string>🕦</string>
-	<key>clock1230</key>
-	<string></string>
-	<key>heavyplussign</key>
+	<key>clock 12 30</key>
+	<string>🕧</string>
+	<key>plus</key>
 	<string>✚</string>
-	<key>heavymultiplicationsign</key>
+	<key>plus sign</key>
+	<string>✚</string>
+	<key>multiplication sign</key>
 	<string>✖️</string>
-	<key>heavyminussign</key>
+	<key>multiply</key>
+	<string>✖️</string>
+	<key>minus sign</key>
 	<string>➖</string>
-	<key>heavydivisionsign</key>
+	<key>subtract</key>
+	<string>➖</string>
+	<key>division sign</key>
+	<string>➗</string>
+	<key>divide</key>
 	<string>➗</string>
 	<key>spades</key>
 	<string>♠️</string>
@@ -1808,205 +2890,325 @@
 	<string>♣️</string>
 	<key>diamonds</key>
 	<string>♦️</string>
-	<key>whiteflower</key>
+	<key>white flower</key>
 	<string>💮</string>
 	<key>100</key>
 	<string>💯</string>
-	<key>heavycheckmark</key>
+	<key>perfect</key>
+	<string>💯</string>
+	<key>check mark</key>
 	<string>✔️</string>
-	<key>ballotboxwithcheck</key>
+	<key>check</key>
+	<string>✔️</string>
+	<key>box with check</key>
 	<string>☑️</string>
-	<key>radiobutton</key>
+	<key>radio button</key>
 	<string>🔘</string>
 	<key>link</key>
 	<string>🔗</string>
-	<key>curlyloop</key>
+	<key>curly loop</key>
 	<string>➰</string>
-	<key>wavydash</key>
+	<key>wavy dash</key>
 	<string>〰</string>
-	<key>partalterationmark</key>
+	<key>part alteration mark</key>
 	<string>〽️</string>
 	<key>trident</key>
 	<string>🔱</string>
-	<key>mediumblacksquare</key>
+	<key>medium black square</key>
 	<string>◼️</string>
-	<key>mediumwhitesquare</key>
+	<key>black square</key>
+	<string>◼️</string>
+	<key>square</key>
+	<string>◼️</string>
+	<key>medium white square</key>
 	<string>◻️</string>
-	<key>smallmediumblacksquare</key>
+	<key>white square</key>
+	<string>◻️</string>
+	<key>small medium black square</key>
 	<string>◾️</string>
-	<key>smallmediumwhiteswuare</key>
+	<key>small medium white square</key>
 	<string>◽️</string>
-	<key>smallblacksquare</key>
+	<key>small black square</key>
 	<string>▪️</string>
-	<key>smallswhitesquare</key>
+	<key>small white square</key>
 	<string>▫️</string>
-	<key>smalluppointtriangle</key>
+	<key>small up point triangle</key>
 	<string>🔺</string>
-	<key>blackwithwhitesquare</key>
+	<key>triangle</key>
+	<string>🔺</string>
+	<key>black with white square</key>
 	<string>🔲</string>
-	<key>whitewithblackquare</key>
+	<key>white with black square</key>
 	<string>🔳</string>
-	<key>bigblackcircle</key>
+	<key>black circle</key>
 	<string>⚫️</string>
-	<key>bigwhitecircle</key>
+	<key>white circle</key>
 	<string>⚪️</string>
-	<key>bigredcircle</key>
+	<key>circle</key>
+	<string>⚪️</string>
+	<key>red circle</key>
 	<string>🔴</string>
-	<key>bigbluecircle</key>
+	<key>blue circle</key>
 	<string>🔵</string>
-	<key>smalldownpointtriange</key>
+	<key>small down point triange</key>
 	<string>🔻</string>
-	<key>bigwhitesquare</key>
+	<key>big white square</key>
 	<string>⬜️</string>
-	<key>bigblacksquare</key>
+	<key>big black square</key>
 	<string>⬛️</string>
-	<key>bigorangediamond</key>
+	<key>big orange diamond</key>
 	<string>🔶</string>
-	<key>bigbluediamond</key>
+	<key>orange diamond</key>
+	<string>🔶</string>
+	<key>big blue diamond</key>
 	<string>🔷</string>
-	<key>smallorangediamond</key>
+	<key>blue diamond</key>
+	<string>🔷</string>
+	<key>small orange diamond</key>
 	<string>🔸</string>
-	<key>smallbluediamond</key>
+	<key>small blue diamond</key>
 	<string>🔹</string>
-	<key>sleeping_accomodation</key>
-	<string></string>
+	<key>sleeping accomodation</key>
+	<string>🛌</string>
 	<key>bed</key>
-	<string></string>
+	<string>🛏</string>
 	<key>sofa</key>
-	<string></string>
+	<string>🛋</string>
+	<key>couch</key>
+	<string>🛋</string>
 	<key>stopwatch</key>
-	<string></string>
+	<string>⏱</string>
 	<key>timer</key>
-	<string></string>
+	<string>⏲</string>
 	<key>mantlepiece_clock</key>
-	<string></string>
+	<string>🕰</string>
+	<key>mantle piece clock</key>
+	<string>🕰</string>
 	<key>military_medal</key>
-	<string></string>
+	<string>🎖</string>
+	<key>military medal</key>
+	<string>🎖</string>
 	<key>reminder_ribbon</key>
-	<string></string>
+	<string>🎗</string>
+	<key>reminder ribbon</key>
+	<string>🎗</string>
 	<key>film_frames</key>
-	<string></string>
+	<string>🎞</string>
+	<key>film frames</key>
+	<string>🎞</string>
+	<key>film</key>
+	<string>🎞</string>
 	<key>admission_ticket</key>
-	<string></string>
+	<string>🎟</string>
+	<key>admission ticket</key>
+	<string>🎟</string>
 	<key>tag</key>
-	<string></string>
+	<string>🏷</string>
 	<key>golfer</key>
-	<string></string>
+	<string>🏌</string>
 	<key>ice_skate</key>
-	<string></string>
+	<string>⛸</string>
+	<key>ice skate</key>
+	<string>⛸</string>
+	<key>skates</key>
+	<string>⛸</string>
 	<key>skier</key>
-	<string></string>
+	<string>⛷</string>
 	<key>basketball_player</key>
-	<string></string>
+	<string>⛹</string>
+	<key>basketball player</key>
+	<string>⛹</string>
 	<key>weightlifter</key>
-	<string></string>
+	<string>🏋</string>
 	<key>race_car</key>
-	<string></string>
+	<string>🏎</string>
+	<key>race car</key>
+	<string>🏎</string>
 	<key>motorcycle</key>
-	<string></string>
+	<string>🏍</string>
 	<key>medal</key>
-	<string></string>
+	<string>🏅</string>
 	<key>cricket</key>
-	<string></string>
+	<string>🏏</string>
 	<key>volleyball</key>
-	<string></string>
+	<string>🏐</string>
 	<key>field_hockey</key>
-	<string></string>
+	<string>🏑</string>
+	<key>field hockey</key>
+	<string>🏑</string>
 	<key>ice_hockey</key>
-	<string></string>
+	<string>🏒</string>
+	<key>ice hockey</key>
+	<string>🏒</string>
+	<key>hockey</key>
+	<string>🏒</string>
 	<key>table_tennis</key>
-	<string></string>
+	<string>🏓</string>
+	<key>table tennis</key>
+	<string>🏓</string>
+	<key>ping pong</key>
+	<string>🏓</string>
 	<key>badminton</key>
-	<string></string>
+	<string>🏸</string>
 	<key>joystick</key>
-	<string></string>
+	<string>🕹</string>
 	<key>play_pause</key>
-	<string></string>
+	<string>⏯</string>
+	<key>play pause</key>
+	<string>⏯</string>
 	<key>to_end</key>
-	<string></string>
+	<string>⏭</string>
+	<key>to end</key>
+	<string>⏭</string>
 	<key>to_beginning</key>
-	<string></string>
+	<string>⏮</string>
+	<key>to beginning</key>
+	<string>⏮</string>
 	<key>pause</key>
-	<string></string>
+	<string>⏸</string>
 	<key>stop</key>
-	<string></string>
+	<string>⏹</string>
 	<key>record</key>
-	<string></string>
+	<string>⏺</string>
 	<key>studio_microphone</key>
-	<string></string>
+	<string>🎙</string>
+	<key>studio microphone</key>
+	<string>🎙</string>
 	<key>level_slider</key>
-	<string></string>
+	<string>🎚</string>
+	<key>level slider</key>
+	<string>🎚</string>
 	<key>control_knobs</key>
-	<string></string>
+	<string>🎛</string>
+	<key>control knobs</key>
+	<string>🎛</string>
+	<key>knobs</key>
+	<string>🎛</string>
 	<key>*</key>
-	<string></string>
+	<string>*️⃣</string>
 	<key>laptop</key>
-	<string></string>
+	<string>💻</string>
 	<key>film_projector</key>
-	<string></string>
+	<string>📽</string>
+	<key>film projector</key>
+	<string>📽</string>
+	<key>projector</key>
+	<string>📽</string>
 	<key>camera_with_flash</key>
-	<string></string>
+	<string>📸</string>
+	<key>camera with flash</key>
+	<string>📸</string>
+	<key>flash</key>
+	<string>📸</string>
 	<key>candle</key>
-	<string></string>
+	<string>🕯</string>
 	<key>rolled_up_newspaper</key>
-	<string></string>
+	<string>🗞</string>
+	<key>rolled up newspaper</key>
+	<string>🗞</string>
 	<key>ballot_box</key>
-	<string></string>
+	<string>🗳</string>
+	<key>ballot box</key>
+	<string>🗳</string>
+	<key>vote</key>
+	<string>🗳</string>
 	<key>fountain_pen</key>
-	<string></string>
+	<string>🖋</string>
+	<key>fountain pen</key>
+	<string>🖋</string>
 	<key>pen</key>
-	<string></string>
+	<string>🖊</string>
 	<key>paintbrush</key>
-	<string></string>
+	<string>🖌</string>
+	<key>brush</key>
+	<string>🖌</string>
 	<key>crayon</key>
-	<string></string>
+	<string>🖍</string>
 	<key>card_index_dividers</key>
-	<string></string>
+	<string>📇</string>
+	<key>card index dividers</key>
+	<string>📇</string>
 	<key>spiral_notepad</key>
-	<string></string>
+	<string>🗒</string>
+	<key>spiral notepad</key>
+	<string>🗒</string>
+	<key>notepad</key>
+	<string>🗒</string>
 	<key>spiral_calendar_pad</key>
-	<string></string>
+	<string>🗓</string>
+	<key>calendar pad</key>
+	<string>🗓</string>
 	<key>linked_paperclips</key>
-	<string></string>
+	<string>🖇</string>
+	<key>linked paperclips</key>
+	<string>🖇</string>
+	<key>paperclips</key>
+	<string>🖇</string>
 	<key>card_file_box</key>
-	<string></string>
+	<string>🗃</string>
+	<key>card file box</key>
+	<string>🗃</string>
 	<key>file_cabinet</key>
-	<string></string>
+	<string>🗄</string>
+	<key>file cabinet</key>
+	<string>🗄</string>
 	<key>garbage_bin</key>
-	<string></string>
+	<string>🗑</string>
+	<key>garbage bin</key>
+	<string>🗑</string>
+	<key>garbage</key>
+	<string>🗑</string>
 	<key>old_key</key>
-	<string></string>
+	<string>🗝</string>
+	<key>old key</key>
+	<string>🗝</string>
 	<key>pick</key>
-	<string></string>
+	<string>⛏</string>
 	<key>hammer_and_pick</key>
-	<string></string>
+	<string>⚒</string>
+	<key>hammer and pick</key>
+	<string>⚒</string>
+	<key>build</key>
+	<string>⚒</string>
 	<key>hammer_and_wrench</key>
-	<string></string>
+	<string>🛠</string>
+	<key>hammer and wrench</key>
+	<string>🛠</string>
 	<key>gear</key>
-	<string></string>
-	<key>clamp</key>
-	<string></string>
+	<string>⚙</string>
 	<key>alembic</key>
-	<string></string>
+	<string>⚗</string>
 	<key>scale</key>
-	<string></string>
+	<string>⚖</string>
 	<key>chains</key>
-	<string></string>
+	<string>⛓</string>
 	<key>dagger</key>
-	<string></string>
+	<string>🗡</string>
 	<key>swords</key>
-	<string></string>
+	<string>⚔</string>
+	<key>sword</key>
+	<string>⚔</string>
 	<key>shield</key>
-	<string></string>
+	<string>🛡</string>
 	<key>bow_and_arrow</key>
-	<string></string>
+	<string>🏹</string>
+	<key>bow and arrow</key>
+	<string>🏹</string>
+	<key>archery</key>
+	<string>🏹</string>
 	<key>coffin</key>
-	<string></string>
+	<string>⚰</string>
 	<key>urn</key>
-	<string></string>
+	<string>⚱</string>
 	<key>white_flag</key>
-	<string></string>
+	<string>🏳</string>
+	<key>white flag</key>
+	<string>🏳</string>
+	<key>flag</key>
+	<string>🏳</string>
 	<key>black_flag</key>
-	<string></string>
+	<string>🏴</string>
+	<key>black flag</key>
+	<string>🏴</string>
 </dict>
 </plist>
