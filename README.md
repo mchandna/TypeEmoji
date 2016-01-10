@@ -1,6 +1,7 @@
 # TypeEmoji
 
 A custom iOS keyboard that auto replaces keywords with their emoji counterparts
+https://itunes.apple.com/us/app/typeemoji/id1071471391?ls=1&mt=8
 
 Host app explains how to enable and use keyboard
 
